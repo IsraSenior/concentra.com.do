@@ -1,6 +1,6 @@
 <template>
     <footer class="px-5 pb-5">
-        <div class="bg-secondary relative isolate overflow-hidden rounded-[4rem]" v-motion-fadein-up-once>
+        <div class="bg-secondary relative isolate overflow-hidden rounded-4xl" v-motion-fadein-up-once>
             <svg class="absolute inset-0 -z-10 size-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
                 aria-hidden="true">
                 <defs>
