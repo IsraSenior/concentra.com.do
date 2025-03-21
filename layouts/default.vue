@@ -1,5 +1,5 @@
 <template>
-    <div class="antialiased text-gray-950">
+    <div class="">
         <slot />
     </div>
 </template>

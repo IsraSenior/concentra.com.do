@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-secondary relative isolate overflow-hidden">
+    <footer class="bg-secondary relative isolate overflow-hidden" v-motion-fadein-up-once>
         <svg class="absolute inset-0 -z-10 size-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
         <defs>
           <pattern id="1d4240dd-898f-445f-932d-e2872fd12de3" width="200" height="200" x="50%" y="0" patternUnits="userSpaceOnUse">

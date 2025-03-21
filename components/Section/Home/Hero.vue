@@ -1,5 +1,5 @@
 <template>
-    <div class="relative isolate overflow-hidden bg-white lg:pb-40">
+    <div class="relative isolate overflow-hidden bg-white lg:pb-56">
         <svg class="absolute inset-0 -z-10 size-full stroke-primary-100 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
             aria-hidden="true">
             <defs>
@@ -10,43 +10,43 @@
             </defs>
             <rect width="100%" height="100%" stroke-width="0" fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" />
         </svg>
-        <div class="mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:pt-40">
+        <div class="mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-52 lg:flex lg:px-8 lg:pt-52">
             <div class="mx-auto max-w-2xl lg:mx-0 lg:shrink-0 lg:pt-8">
                 <div class="mt-24 sm:mt-32 lg:mt-16">
                     <div class="inline-flex space-x-4">
-                        <span
+                        <span v-motion-fadein-up-once :delay="200"
                             class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-semibold text-primary ring-1 ring-primary-100 ring-inset">
                             IT Consulting
                         </span>
-                        <span
+                        <span v-motion-fadein-up-once :delay="300"
                             class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-semibold text-primary ring-1 ring-primary-100 ring-inset">
                             Software solutions
                         </span>
-                        <span
+                        <span v-motion-fadein-up-once :delay="400"
                             class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-semibold text-primary ring-1 ring-primary-100 ring-inset">
                             Traninig
                         </span>
-                        <span
+                        <span v-motion-fadein-up-once :delay="500"
                             class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-semibold text-primary ring-1 ring-primary-100 ring-inset">
                             Outsourcing
                         </span>
-                        <span
+                        <span v-motion-fadein-up-once :delay="600"
                             class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-semibold text-primary ring-1 ring-primary-100 ring-inset">
                             IT Support
                         </span>
                     </div>
                 </div>
-                <h1 class="mt-10 text-5xl font-semibold tracking-normal text-pretty text-secondary sm:text-6xl">Smart IT
+                <h1 class="mt-10 text-5xl font-semibold tracking-normal text-pretty text-secondary sm:text-5xl" v-motion-fadein-up-once :delay="700">Smart IT
                     Management, Simplified.</h1>
-                <p class="mt-8 text-lg font-medium text-pretty text-gris-aluminio sm:text-xl/8">Optimiza tus procesos y
+                <p class="mt-8 text-lg font-medium text-pretty text-gris-aluminio sm:text-xl/8" v-motion-fadein-up-once :delay="800">Optimiza tus procesos y
                     potencia tu negocio con soluciones tecnológicas inteligentes. Descubre cómo podemos transformar tu
                     gestión IT hoy mismo.
                 </p>
                 <div class="mt-10 flex items-center gap-x-6">
-                    <a href="#"
+                    <a href="#" v-motion-fadein-up-once :delay="900"
                         class="rounded-full bg-secondary px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Conocer
                         más</a>
-                    <a href="#" class="text-sm/6 font-semibold text-secondary hover:text-primary">Contáctanos <span
+                    <a href="#" v-motion-fadein-up-once :delay="1000" class="text-sm/6 font-semibold text-secondary hover:text-primary">Contáctanos <span
                             aria-hidden="true">→</span></a>
                 </div>
             </div>
@@ -60,31 +60,43 @@
                             class="w-[76rem] rounded-md ring-1 shadow-2xl ring-gray-900/10">
                             
                     </div> -->
-                    <Isotipo class="w-[40rem] absolute left-0 -top-[20%]" />
+
+                    <client-only>
+                        <Vue3Lottie animationLink="/lottie-logo.json" height="auto" :width="640" v-motion="{
+                            enter: {
+                                opacity: 0,
+                                scale: 0.9,
+                            },
+                            visible: {
+                                opacity: 1,
+                                scale: 1,
+                                transition: {
+                                    duration: 2000
+                                }
+                            }
+                        }" />
+                    </client-only>
                 </div>
             </div>
         </div>
 
-        <div class="mx-auto -mt-20 max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto pt-12 max-w-7xl px-6 lg:px-8">
             <div
                 class="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-                <img class="col-span-2 w-full object-contain lg:col-span-1"
-                    src="https://concentra.com.do/images/mepyd.jpg"
-                    alt="Transistor" width="158" height="48">
-                <img class="col-span-2 w-full object-contain lg:col-span-1"
-                    src="https://concentra.com.do/images/clientes/36.jpg" alt="Reform"
-                    width="158" height="48">
-                <img class="col-span-2 w-full object-contain lg:col-span-1"
-                    src="https://concentra.com.do/images/clientes/46.jpg" alt="Tuple"
-                    width="158" height="48">
-                <img class="col-span-2 w-full object-contain sm:col-start-2 lg:col-span-1"
-                    src="https://concentra.com.do/images/clientes/21.jpg" alt="SavvyCal"
-                    width="158" height="48">
-                <img class="col-span-2 col-start-2 w-full object-contain sm:col-start-auto lg:col-span-1"
-                    src="https://concentra.com.do/images/clientes/5.jpg" alt="Statamic"
-                    width="158" height="48">
+                <img class="col-span-2 w-full object-contain lg:col-span-1" v-motion-fadein-up-once :delay="200"
+                    src="https://concentra.com.do/images/mepyd.jpg" alt="Transistor" width="158" height="48">
+                <img class="col-span-2 w-full object-contain lg:col-span-1" v-motion-fadein-up-once :delay="250"
+                    src="https://concentra.com.do/images/clientes/36.jpg" alt="Reform" width="158" height="48">
+                <img class="col-span-2 w-full object-contain lg:col-span-1" v-motion-fadein-up-once :delay="300"
+                    src="https://concentra.com.do/images/clientes/46.jpg" alt="Tuple" width="158" height="48">
+                <img class="col-span-2 w-full object-contain sm:col-start-2 lg:col-span-1" v-motion-fadein-up-once :delay="350"
+                 src="https://concentra.com.do/images/clientes/21.jpg" alt="SavvyCal" width="158"
+                    height="48">
+                <img class="col-span-2 col-start-2 w-full object-contain sm:col-start-auto lg:col-span-1" v-motion-fadein-up-once :delay="400"
+                 src="https://concentra.com.do/images/clientes/5.jpg" alt="Statamic" width="158"
+                    height="48">
             </div>
-            <div class="-mt-8 flex justify-center">
+            <div class="-mt-8 flex justify-center" v-motion-fadein-up-once :delay="300">
                 <p
                     class="relative rounded-full bg-primary-50 px-4 py-1.5 text-sm/6 text-primary-800 ring-1 ring-primary-900/5 ring-inset">
                     <span class="hidden md:inline">Más de 75 empresas utilizan nuestras herramientas para mejorar su
