@@ -1,6 +1,7 @@
 <template>
     <div class="">
         <slot />
+        <LazyWhatsapp />
     </div>
 </template>
 
