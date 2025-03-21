@@ -23,7 +23,7 @@
             <div class="hidden lg:flex lg:gap-x-12">
 
                 <client-only v-for="(item, index) in menu" :key="index">
-                    <a v-if="!item.float" href="#" class="text-sm/6 font-semibold text-gray-900">{{ item.label }}</a>
+                    <a v-if="!item.float" href="#" class="text-sm/6 font-light text-gray-900">{{ item.label }}</a>
                     <HeaderFloatMenu v-else :item="item" />
                 </client-only>
             </div>

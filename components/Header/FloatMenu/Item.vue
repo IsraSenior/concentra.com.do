@@ -9,11 +9,11 @@
             <img v-if="item?.image" :src="item.image" :alt="item?.label" class="size-10 object-contain object-center">
         </div>
         <div class="flex-auto">
-            <a href="#" class="block font-semibold text-gray-900">
+            <a href="#" class="block font-semibold text-secondary">
                 {{ item?.label }}
                 <span class="absolute inset-0"></span>
             </a>
-            <p class="mt-1 text-gray-600">{{ item.intro }}</p>
+            <p class="mt-1 text-gris-aluminio font-normal">{{ item.intro }}</p>
         </div>
     </div>
 </template>

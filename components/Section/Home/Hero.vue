@@ -15,38 +15,38 @@
                 <div class="mt-24 sm:mt-32 lg:mt-16">
                     <div class="inline-flex space-x-4">
                         <span v-motion-fadein-up-once :delay="200"
-                            class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-semibold text-primary ring-1 ring-primary-100 ring-inset">
+                            class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-light text-primary ring-1 ring-primary-100 ring-inset">
                             IT Consulting
                         </span>
                         <span v-motion-fadein-up-once :delay="300"
-                            class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-semibold text-primary ring-1 ring-primary-100 ring-inset">
+                            class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-light text-primary ring-1 ring-primary-100 ring-inset">
                             Software solutions
                         </span>
                         <span v-motion-fadein-up-once :delay="400"
-                            class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-semibold text-primary ring-1 ring-primary-100 ring-inset">
+                            class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-light text-primary ring-1 ring-primary-100 ring-inset">
                             Traninig
                         </span>
                         <span v-motion-fadein-up-once :delay="500"
-                            class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-semibold text-primary ring-1 ring-primary-100 ring-inset">
+                            class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-light text-primary ring-1 ring-primary-100 ring-inset">
                             Outsourcing
                         </span>
                         <span v-motion-fadein-up-once :delay="600"
-                            class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-semibold text-primary ring-1 ring-primary-100 ring-inset">
+                            class="rounded-full bg-primary-50 px-3 py-1 text-sm/6 font-light text-primary ring-1 ring-primary-100 ring-inset">
                             IT Support
                         </span>
                     </div>
                 </div>
-                <h1 class="mt-10 text-5xl font-semibold tracking-normal text-pretty text-secondary sm:text-5xl" v-motion-fadein-up-once :delay="700">Smart IT
+                <h1 class="mt-10 text-5xl font-semibold tracking-normal text-pretty text-secondary sm:text-5xl leading-tight" v-motion-fadein-up-once :delay="700">Smart IT
                     Management, Simplified.</h1>
-                <p class="mt-8 text-lg font-medium text-pretty text-gris-aluminio sm:text-xl/8" v-motion-fadein-up-once :delay="800">Optimiza tus procesos y
+                <p class="mt-8 text-lg font-normal text-pretty text-gris-aluminio sm:text-xl/8" v-motion-fadein-up-once :delay="800">Optimiza tus procesos y
                     potencia tu negocio con soluciones tecnológicas inteligentes. Descubre cómo podemos transformar tu
                     gestión IT hoy mismo.
                 </p>
                 <div class="mt-10 flex items-center gap-x-6">
                     <a href="#" v-motion-fadein-up-once :delay="900"
-                        class="rounded-full bg-secondary px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Conocer
+                        class="rounded-full bg-secondary px-3.5 py-2.5 text-sm font-light text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Conocer
                         más</a>
-                    <a href="#" v-motion-fadein-up-once :delay="1000" class="text-sm/6 font-semibold text-secondary hover:text-primary">Contáctanos <span
+                    <a href="#" v-motion-fadein-up-once :delay="1000" class="text-sm/6 font-light text-secondary hover:text-primary">Contáctanos <span
                             aria-hidden="true">→</span></a>
                 </div>
             </div>

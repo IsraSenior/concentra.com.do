@@ -7,18 +7,18 @@
         <div class="overflow-hidden bg-white pb-24">
             <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
                 <div class="max-w-4xl">
-                    <p class="text-base/7 font-semibold text-primary" v-motion-fadein-up-once>Sobre nosotros</p>
-                    <h1 class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-secondary sm:text-5xl"
+                    <p class="text-base/7 font-light text-primary tracking-wider uppercase" v-motion-fadein-up-once>Sobre nosotros</p>
+                    <h1 class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-secondary leading-tight sm:text-5xl"
                         v-motion-fadein-up-once :delay="300">
                         Con la
                         misión de potenciar los empresas</h1>
-                    <p class="mt-6 text-xl/8 text-balance text-gris-aluminio" v-motion-fadein-up-once>Aliquet nec orci
+                    <p class="mt-6 text-xl/8 text-balance text-gris-aluminio font-normal" v-motion-fadein-up-once>Aliquet nec orci
                         mattis amet quisque
                         ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at
                         vitae feugiat egestas.</p>
                     <div class="mt-10 flex" v-motion-fadein-up-once>
                         <a href="#"
-                            class="rounded-full bg-secondary px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Conocer
+                            class="rounded-full bg-secondary px-3.5 py-2.5 text-sm font-light text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Conocer
                             más sobre nostros</a>
                     </div>
                 </div>
@@ -26,16 +26,16 @@
                     <div class="lg:pr-8">
                         <h2 class="text-xl font-semibold tracking-tight text-pretty text-primary"
                             v-motion-fadein-up-once>Compromiso</h2>
-                        <p class="mt-4 text-base/7 text-gris-aluminio" v-motion-fadein-up-once>Grado de responsabilidad
+                        <p class="mt-4 text-base/7 text-gris-aluminio font-normal" v-motion-fadein-up-once>Grado de responsabilidad
                             y disposición de
                             apoyar
                             desde mi rol, las prioridades de la organización, asumiendo con el debido sentido de
                             urgencia el cumplimiento de la tarea, proyecto o promesa acordada.</p>
 
-                        <h2 class="text-xl font-semibold tracking-tight text-pretty text-primary mt-8"
+                        <h2 class="text-xl font-semibold tracking-tight text-pretty text-primary mt-8 leading-tight"
                             v-motion-fadein-up-once>Innovación
                         </h2>
-                        <p class="mt-4 text-base/7 text-gris-aluminio" v-motion-fadein-up-once>Capacidad de desafiar las
+                        <p class="mt-4 text-base/7 text-gris-aluminio font-normal" v-motion-fadein-up-once>Capacidad de desafiar las
                             ideas
                             convencionales,
                             con el propósito de crear soluciones que generen valor, tanto para nuestros clientes,
@@ -46,7 +46,7 @@
                             v-motion-fadein-up-once>Trabajo en
                             equipo
                         </h2>
-                        <p class="mt-4 text-base/7 text-gris-aluminio" v-motion-fadein-up-once>Hacer lo necesario para
+                        <p class="mt-4 text-base/7 text-gris-aluminio font-normal" v-motion-fadein-up-once>Hacer lo necesario para
                             que la empresa
                             alcance
                             sus resultados, estando consciente de cómo mi trabajo impacta y complementa el de otros,
@@ -88,26 +88,26 @@
 
                             <div v-motion-fadein-up-once
                                 class="flex flex-col gap-y-2 border-b border-dotted border-primary-100 pb-4">
-                                <dt class="text-sm/6 text-gris-aluminio">Años de gestión</dt>
+                                <dt class="text-sm/6 text-gris-aluminio font-normal">Años de gestión</dt>
                                 <dd class="order-first text-6xl font-semibold tracking-tight text-primary">
                                     +<span>20</span></dd>
                             </div>
                             <div v-motion-fadein-up-once
                                 class="flex flex-col gap-y-2 border-b border-dotted border-primary-100 pb-4">
-                                <dt class="text-sm/6 text-gris-aluminio">Clientes satisfechos</dt>
+                                <dt class="text-sm/6 text-gris-aluminio font-normal">Clientes satisfechos</dt>
                                 <dd class="order-first text-6xl font-semibold tracking-tight text-secondary">
                                     +<span>75</span>
                                 </dd>
                             </div>
-                            <div
+                            <div v-motion-fadein-up-once
                                 class="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-primary-100 max-sm:pb-4">
-                                <dt class="text-sm/6 text-gris-aluminio">Profesionales capacitados</dt>
+                                <dt class="text-sm/6 text-gris-aluminio font-normal">Profesionales capacitados</dt>
                                 <dd class="order-first text-6xl font-semibold tracking-tight text-azul-cobalto">
                                     <span>5.6</span>K
                                 </dd>
                             </div>
                             <div v-motion-fadein-up-once class="flex flex-col gap-y-2">
-                                <dt class="text-sm/6 text-gris-aluminio">Proyectos exitosos</dt>
+                                <dt class="text-sm/6 text-gris-aluminio font-normal">Proyectos exitosos</dt>
                                 <dd class="order-first text-6xl font-semibold tracking-tight text-verde-esmeralda">
                                     +<span>200</span>
                                 </dd>
@@ -119,9 +119,9 @@
             </div>
         </div>
 
-        <div class="bg-white">
+        <div class="bg-white" >
             <div class="mx-auto max-w-7xl py-24 sm:px-6 lg:px-8">
-                <div
+                <div v-motion-fadein-up-once
                     class="relative isolate overflow-hidden bg-secondary px-6 py-24 text-center sm:rounded-3xl sm:px-16">
                     <Isotipo v-motion="{
                         enter: {
@@ -160,10 +160,10 @@
         <div class="bg-white py-24 px-4">
             <div class="bg-primary-50 py-14 rounded-4xl">
                 <div class="mx-auto max-w-2xl lg:max-w-7xl text-center">
-                    <h2 class="text-base/7 font-semibold text-primary" v-motion-fadein-up-once>Soluciones inteligentes
+                    <h2 class="text-base/7 font-light text-primary tracking-wider uppercase" v-motion-fadein-up-once>Soluciones inteligentes
                     </h2>
                     <p v-motion-fadein-up-once
-                        class="mt-2 max-w-xl mx-auto text-4xl font-semibold tracking-tight text-pretty text-secondary sm:text-5xl">
+                        class="mt-2 max-w-xl mx-auto text-4xl font-semibold tracking-tight text-pretty text-secondary sm:text-5xl leading-tight">
                         Transforma tu gestión con nuestros productos</p>
 
                     <div class="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2 text-left">
@@ -194,11 +194,11 @@
                                     src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-performance.png"
                                     alt="">
                                 <div class="p-10 pt-4">
-                                    <h3 class="text-sm/4 font-semibold text-primary">Rendimiento</h3>
-                                    <p class="mt-2 text-lg font-medium tracking-tight text-secondary">Optimización
+                                    <h3 class="text-sm/4 font-light uppercase text-primary">Rendimiento</h3>
+                                    <p class="mt-2 text-lg font-semibold leading-relaxed tracking-tight text-secondary">Optimización
                                         empresarial
                                     </p>
-                                    <p class="mt-2 max-w-lg text-sm/6 text-gris-aluminio">Mayor eficiencia operativa
+                                    <p class="mt-2 max-w-lg text-sm/6 text-gris-aluminio font-normal">Mayor eficiencia operativa
                                         con
                                         estrategias digitales inteligentes</p>
                                 </div>
@@ -232,11 +232,11 @@
                                     src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-releases.png"
                                     alt="">
                                 <div class="p-10 pt-4">
-                                    <h3 class="text-sm/4 font-semibold text-primary">Software de alto impacto</h3>
-                                    <p class="mt-2 text-lg font-medium tracking-tight text-secondary">
+                                    <h3 class="text-sm/4 font-light uppercase text-primary">Software de alto impacto</h3>
+                                    <p class="mt-2 text-lg font-semibold leading-relaxed tracking-tight text-secondary">
                                         Encriptación y seguridad
                                     </p>
-                                    <p class="mt-2 max-w-lg text-sm/6 text-gris-aluminio">
+                                    <p class="mt-2 max-w-lg text-sm/6 text-gris-aluminio font-normal">
                                         Curabitur auctor, ex quis auctor venenatis, eros arcu rhoncus massa, laoreet
                                         dapibus
                                         ex elit vitae odio.
@@ -272,11 +272,11 @@
                                     src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-network.png"
                                     alt="">
                                 <div class="p-10 pt-4">
-                                    <h3 class="text-sm/4 font-semibold text-primary">99.7% de optimización</h3>
-                                    <p class="mt-2 text-lg font-medium tracking-tight text-secondary">
+                                    <h3 class="text-sm/4 font-light uppercase text-primary">99.7% de optimización</h3>
+                                    <p class="mt-2 text-lg font-semibold leading-relaxed tracking-tight text-secondary">
                                         Estrategia corporativa
                                     </p>
-                                    <p class="mt-2 max-w-lg text-sm/6 text-gris-aluminio">Planificación basada en
+                                    <p class="mt-2 max-w-lg text-sm/6 text-gris-aluminio font-normal">Planificación basada en
                                         datos
                                         para
                                         maximizar rentabilidad</p>
@@ -309,11 +309,11 @@
                                     src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-integrations.png"
                                     alt="">
                                 <div class="p-10 pt-4">
-                                    <h3 class="text-sm/4 font-semibold text-primary">Vanguardia</h3>
-                                    <p class="mt-2 text-lg font-medium tracking-tight text-secondary">
+                                    <h3 class="text-sm/4 font-light uppercase text-primary">Vanguardia</h3>
+                                    <p class="mt-2 text-lg font-semibold leading-relaxed tracking-tight text-secondary">
                                         Software factory
                                     </p>
-                                    <p class="mt-2 max-w-lg text-sm/6 text-gris-aluminio">
+                                    <p class="mt-2 max-w-lg text-sm/6 text-gris-aluminio font-normal">
                                         Expertos en el uso de metodologías y herramientas de desarrollo.
                                     </p>
                                 </div>
@@ -349,11 +349,11 @@
                                     src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-speed.png"
                                     alt="">
                                 <div class="p-10 pt-4">
-                                    <h3 class="text-sm/4 font-semibold text-primary">Evolucioón</h3>
-                                    <p class="mt-2 text-lg font-medium tracking-tight text-secondary">
+                                    <h3 class="text-sm/4 font-light uppercase text-primary">Evolucioón</h3>
+                                    <p class="mt-2 text-lg font-semibold leading-relaxed tracking-tight text-secondary">
                                         Gestión de TIC
                                     </p>
-                                    <p class="mt-2 max-w-lg text-sm/6 text-gris-aluminio">
+                                    <p class="mt-2 max-w-lg text-sm/6 text-gris-aluminio font-normal">
                                         Implementación de frameworks para un gobierno tecnológico inteligente.
                                     </p>
                                 </div>
@@ -373,23 +373,23 @@
                     class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:max-w-none lg:min-w-full lg:flex-none lg:gap-y-8">
                     <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
 
-                        <h2 class="text-base/7 font-semibold text-primary" v-motion-fadein-up-once>Equipo</h2>
-                        <h2 class="text-4xl font-semibold tracking-tight text-secondary sm:text-5xl"
+                        <h2 class="text-base/7 font-light text-primary tracking-wider uppercase" v-motion-fadein-up-once>Equipo</h2>
+                        <p class="text-4xl font-semibold tracking-tight text-secondary sm:text-5xl leading-tight"
                             v-motion-fadein-up-once>Nuestros
-                            profesionales</h2>
-                        <p class="mt-6 text-xl/8 text-gris-aluminio" v-motion-fadein-up-once>Quasi est quaerat. Sit
+                            profesionales</p>
+                        <p class="mt-6 text-xl/8 text-gris-aluminio font-normal" v-motion-fadein-up-once>Quasi est quaerat. Sit
                             molestiae et. Provident
                             ad
                             dolorem occaecati eos iste. Soluta rerum quidem minus ut molestiae velit error quod.
                             Excepturi quidem expedita molestias quas.</p>
-                        <p class="mt-6 text-base/7 text-gris-aluminio" v-motion-fadein-up-once>Anim aute id magna aliqua
+                        <p class="mt-6 text-base/7 text-gris-aluminio font-normal" v-motion-fadein-up-once>Anim aute id magna aliqua
                             ad ad non deserunt
                             sunt. Qui
                             irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat. Quasi
                             aperiam sit non sit neque reprehenderit.</p>
                         <div class="mt-10 flex" v-motion-fadein-up-once>
                             <a href="#"
-                                class="rounded-full bg-secondary px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Únete
+                                class="rounded-full bg-secondary px-3.5 py-2.5 text-sm font-light text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Únete
                                 a nuestro equipo</a>
                         </div>
 
@@ -428,9 +428,9 @@
         <div class="relative isolate bg-white pt-24 pb-32">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto max-w-2xl text-center">
-                    <h2 class="text-base/7 font-semibold text-primary" v-motion-fadein-up-once>Testimonios</h2>
+                    <h2 class="text-base/7 font-light text-primary tracking-wider uppercase" v-motion-fadein-up-once>Testimonios</h2>
                     <p v-motion-fadein-up-once
-                        class="mt-2 text-4xl font-semibold tracking-tight text-balance text-secondary sm:text-5xl">
+                        class="mt-2 text-4xl font-semibold tracking-tight text-balance text-secondary sm:text-5xl leading-tight">
                         Hemos
                         trabajado con miles de personas increíbles</p>
                 </div>
@@ -439,8 +439,8 @@
                     <figure v-motion-fadein-up-once
                         class="rounded-2xl bg-white ring-1 shadow-lg ring-secondary/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
                         <blockquote
-                            class="p-6 text-lg font-semibold tracking-tight text-secondary sm:p-12 sm:text-xl/8">
-                            <p>“Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae
+                            class="p-6 text-lg tracking-tight text-secondary sm:p-12 sm:text-xl/8">
+                            <p class="font-normal text-gris-aluminio">“Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae
                                 auctor
                                 libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi
                                 venenatis
@@ -465,7 +465,7 @@
                             <figure v-motion-fadein-up-once
                                 class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                 <blockquote class="text-secondary">
-                                    <p>“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil.
+                                    <p class="font-normal text-gris-aluminio">“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil.
                                         Aut
                                         enim doloremque et ipsam.”</p>
                                 </blockquote>
@@ -482,7 +482,7 @@
                             <figure v-motion-fadein-up-once
                                 class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                 <blockquote class="text-secondary">
-                                    <p>“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit
+                                    <p class="font-normal text-gris-aluminio">“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit
                                         incidunt
                                         excepturi rerum voluptatem minus harum.”</p>
                                 </blockquote>
@@ -504,7 +504,7 @@
                             <figure v-motion-fadein-up-once
                                 class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                 <blockquote class="text-secondary">
-                                    <p>“Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam
+                                    <p class="font-normal text-gris-aluminio">“Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam
                                         ut
                                         officia rem nulla blanditiis.”</p>
                                 </blockquote>
@@ -530,7 +530,7 @@
                             <figure v-motion-fadein-up-once
                                 class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                 <blockquote class="text-secondary">
-                                    <p>“Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis
+                                    <p class="font-normal text-gris-aluminio">“Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis
                                         repudiandae.
                                         Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.”
                                     </p>
@@ -554,7 +554,7 @@
                             <figure v-motion-fadein-up-once
                                 class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                 <blockquote class="text-secondary">
-                                    <p>“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit
+                                    <p class="font-normal text-gris-aluminio">“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit
                                         incidunt
                                         excepturi rerum voluptatem minus harum.”</p>
                                 </blockquote>
@@ -572,7 +572,7 @@
                             <figure v-motion-fadein-up-once
                                 class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                 <blockquote class="text-secondary">
-                                    <p>“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil.
+                                    <p class="font-normal text-gris-aluminio">“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil.
                                         Aut
                                         enim doloremque et ipsam.”</p>
                                 </blockquote>
