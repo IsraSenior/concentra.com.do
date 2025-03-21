@@ -2015,11 +2015,6 @@ csstype@^3.1.3:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.3.tgz#d80ff294d114fb0e6ac500fbf85b60137d7eff81"
   integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
 
-daisyui@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-5.0.0.tgz#562d8a0de86c109daa355e9371537421a53953a5"
-  integrity sha512-U0K9Bac3Bi3zZGm6ojrw12F0vBHTpEgf46zv/BYxLe07hF0Xnx7emIQliwaRBgJuYhY0BhwQ6wSnq5cJXHA2yA==
-
 db0@^0.2.1:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/db0/-/db0-0.2.3.tgz#91f1c083d65f9198ba5ae440628722f9db44d886"
