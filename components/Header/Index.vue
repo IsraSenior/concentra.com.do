@@ -1,8 +1,7 @@
 <template>
     <header v-motion-fadein-down-enter :duration="1000"
         class="z-40 bg-white rounded-full fixed top-4 transform -translate-x-1/2 left-1/2 drop-shadow-xs shadow shadow-primary/5 max-w-7xl w-full">
-        <nav class="mx-auto flex  items-center justify-between p-4 lg:px-8 space-x-10 relative"
-            aria-label="Global">
+        <nav class="mx-auto flex  items-center justify-between p-4 lg:px-8 space-x-10 relative" aria-label="Global">
             <div class="flex lg:flex-1">
                 <a href="#" class="-m-1.5 p-1.5">
                     <span class="sr-only">Your Company</span>
@@ -28,9 +27,10 @@
                 </client-only>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="#" class="text-sm/6 font-light text-gray-900">
-                    Contacto
-                    <span aria-hidden="true">&rarr;</span></a>
+                <a href="#" v-motion-fadein-up-once :delay="900"
+                    class="rounded-full bg-transparent border border-secondary px-3.5 py-2.5 text-sm font-light text-secondary shadow-xs hover:bg-secondary hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">
+                    ¡Empléate!
+                </a>
             </div>
         </nav>
 
