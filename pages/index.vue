@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="max-lg:mt-16 lg:col-span-1">
-                        <p class="text-base/7 font-semibold text-secondary" v-motion-fadein-up-once>Nuestros números</p>
+                        <p class="text-xl font-semibold tracking-tight text-pretty text-secondary" v-motion-fadein-up-once>Nuestros números</p>
                         <hr class="mt-6 border-t border-primary-100" v-motion-fadein-up-once>
                         <dl class="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
 
