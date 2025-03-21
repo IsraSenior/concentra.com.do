@@ -24,7 +24,7 @@
                 </div>
                 <section class="mt-20 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
                     <div class="lg:pr-8">
-                        <LazyMotionGroup preset="fadein-up-once">
+                        <MotionGroup preset="fadein-up-once">
                             <h2 class="text-xl font-semibold tracking-tight text-pretty text-primary">Compromiso</h2>
                             <p class="mt-4 text-base/7 text-gris-aluminio">Grado de responsabilidad y disposición de
                                 apoyar
@@ -46,12 +46,12 @@
                                 alcance
                                 sus resultados, estando consciente de cómo mi trabajo impacta y complementa el de otros,
                                 generando entre todos un efecto sinérgico.</p>
-                        </LazyMotionGroup>
+                        </MotionGroup>
                     </div>
                     <div class="pt-16 lg:row-span-2 lg:-mr-16 xl:mr-auto">
                         <div
                             class="-mx-8 grid grid-cols-2 gap-4 sm:-mx-16 sm:grid-cols-4 lg:mx-0 lg:grid-cols-2 lg:gap-4 xl:gap-8">
-                            <LazyMotionGroup preset="fadein-up-once">
+                            <MotionGroup preset="fadein-up-once">
                                 <div
                                     class="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
                                     <img alt=""
@@ -76,14 +76,14 @@
                                         src="https://images.unsplash.com/photo-1598257006458-087169a1f08d?&auto=format&fit=crop&crop=center&w=560&h=560&q=90"
                                         class="block size-full object-cover">
                                 </div>
-                            </LazyMotionGroup>
+                            </MotionGroup>
                         </div>
                     </div>
                     <div class="max-lg:mt-16 lg:col-span-1">
                         <p class="text-base/7 font-semibold text-secondary" v-motion-fadein-up-once>Nuestros números</p>
                         <hr class="mt-6 border-t border-primary-100" v-motion-fadein-up-once>
                         <dl class="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
-                            <LazyMotionGroup preset="fadein-up-once">
+                            <MotionGroup preset="fadein-up-once">
                                 <div class="flex flex-col gap-y-2 border-b border-dotted border-primary-100 pb-4">
                                     <dt class="text-sm/6 text-gris-aluminio">Años de gestión</dt>
                                     <dd class="order-first text-6xl font-semibold tracking-tight text-primary">
@@ -108,7 +108,7 @@
                                         +<span>200</span>
                                     </dd>
                                 </div>
-                            </LazyMotionGroup>
+                            </MotionGroup>
                         </dl>
                     </div>
                 </section>
@@ -133,7 +133,7 @@
                         }
                     }"
                         class="absolute h-[500px] brightness-0 invert opacity-10 left-0 bottom-0 transform -translate-x-1/4 translate-y-1/4 rotate-12" />
-                    <LazyMotionGroup preset="fadein-up-once">
+                    <MotionGroup preset="fadein-up-once">
                         <h2 class="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">Aumente su
                             productividad hoy mismo.</h2>
                         <p class="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-300">Incididunt sint fugiat
@@ -146,7 +146,7 @@
                             <a href="#" class="text-sm/6 font-semibold text-white">Conoce más <span
                                     aria-hidden="true">→</span></a>
                         </div>
-                    </LazyMotionGroup>
+                    </MotionGroup>
                 </div>
             </div>
         </div>
@@ -366,7 +366,7 @@
                 <div
                     class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:max-w-none lg:min-w-full lg:flex-none lg:gap-y-8">
                     <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-                        <LazyMotionGroup preset="fadein-up-once">
+                        <MotionGroup preset="fadein-up-once">
                             <h2 class="text-base/7 font-semibold text-primary">Equipo</h2>
                             <h2 class="text-4xl font-semibold tracking-tight text-secondary sm:text-5xl">Nuestros
                                 profesionales</h2>
@@ -383,7 +383,7 @@
                                     class="rounded-full bg-secondary px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Únete
                                     a nuestro equipo</a>
                             </div>
-                        </LazyMotionGroup>
+                        </MotionGroup>
                     </div>
                     <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                         <div v-motion-fadein-up-once
@@ -393,7 +393,7 @@
                         </div>
                         <div
                             class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-                            <LazyMotionGroup preset="fadein-up-once">
+                            <MotionGroup preset="fadein-up-once">
                                 <div
                                     class="order-first flex w-64 flex-none justify-end self-end lg:w-auto overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
                                     <img src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
@@ -411,7 +411,7 @@
                                     <img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
                                         alt="" class="aspect-4/3 w-[24rem] max-w-none bg-gray-50 object-cover">
                                 </div>
-                            </LazyMotionGroup>
+                            </MotionGroup>
                         </div>
                     </div>
                 </div>
@@ -428,7 +428,7 @@
                 </div>
                 <div
                     class="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm/6 text-secondary sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
-                    <LazyMotionGroup preset="fadein-up-once">
+                    <MotionGroup preset="fadein-up-once">
                         <figure
                             class="rounded-2xl bg-white ring-1 shadow-lg ring-secondary/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
                             <blockquote
@@ -453,10 +453,10 @@
                                     alt="">
                             </figcaption>
                         </figure>
-                    </LazyMotionGroup>
+                    </MotionGroup>
                     <div class="space-y-8 xl:contents xl:space-y-0">
                         <div class="space-y-8 xl:row-span-2">
-                            <LazyMotionGroup preset="fadein-up-once">
+                            <MotionGroup preset="fadein-up-once">
                                 <figure class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                     <blockquote class="text-secondary">
                                         <p>“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil.
@@ -489,11 +489,11 @@
                                         </div>
                                     </figcaption>
                                 </figure>
-                            </LazyMotionGroup>
+                            </MotionGroup>
                             <!-- More testimonials... -->
                         </div>
                         <div class="space-y-8 xl:row-start-1">
-                            <LazyMotionGroup preset="fadein-up-once">
+                            <MotionGroup preset="fadein-up-once">
                                 <figure class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                     <blockquote class="text-secondary">
                                         <p>“Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam
@@ -510,7 +510,7 @@
                                         </div>
                                     </figcaption>
                                 </figure>
-                            </LazyMotionGroup>
+                            </MotionGroup>
 
                             <!-- More testimonials... -->
                         </div>
@@ -518,7 +518,7 @@
 
                     <div class="space-y-8 xl:contents xl:space-y-0">
                         <div class="space-y-8 xl:row-start-1">
-                            <LazyMotionGroup preset="fadein-up-once">
+                            <MotionGroup preset="fadein-up-once">
                                 <figure class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                     <blockquote class="text-secondary">
                                         <p>“Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis
@@ -536,12 +536,12 @@
                                         </div>
                                     </figcaption>
                                 </figure>
-                            </LazyMotionGroup>
+                            </MotionGroup>
 
                             <!-- More testimonials... -->
                         </div>
                         <div class="space-y-8 xl:row-span-2">
-                            <LazyMotionGroup preset="fadein-up-once">
+                            <MotionGroup preset="fadein-up-once">
                                 <figure class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                     <blockquote class="text-secondary">
                                         <p>“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit
@@ -575,7 +575,7 @@
                                         </div>
                                     </figcaption>
                                 </figure>
-                            </LazyMotionGroup>
+                            </MotionGroup>
 
                             <!-- More testimonials... -->
                         </div>
