@@ -372,24 +372,27 @@
                 <div
                     class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:max-w-none lg:min-w-full lg:flex-none lg:gap-y-8">
                     <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-                        <LazyMotionGroup :preset="'fadein-up-once'">
-                            <h2 class="text-base/7 font-semibold text-primary">Equipo</h2>
-                            <h2 class="text-4xl font-semibold tracking-tight text-secondary sm:text-5xl">Nuestros
-                                profesionales</h2>
-                            <p class="mt-6 text-xl/8 text-gris-aluminio">Quasi est quaerat. Sit molestiae et. Provident
-                                ad
-                                dolorem occaecati eos iste. Soluta rerum quidem minus ut molestiae velit error quod.
-                                Excepturi quidem expedita molestias quas.</p>
-                            <p class="mt-6 text-base/7 text-gris-aluminio">Anim aute id magna aliqua ad ad non deserunt
-                                sunt. Qui
-                                irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat. Quasi
-                                aperiam sit non sit neque reprehenderit.</p>
-                            <div class="mt-10 flex">
-                                <a href="#"
-                                    class="rounded-full bg-secondary px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Únete
-                                    a nuestro equipo</a>
-                            </div>
-                        </LazyMotionGroup>
+
+                        <h2 class="text-base/7 font-semibold text-primary" v-motion-fadein-up-once>Equipo</h2>
+                        <h2 class="text-4xl font-semibold tracking-tight text-secondary sm:text-5xl"
+                            v-motion-fadein-up-once>Nuestros
+                            profesionales</h2>
+                        <p class="mt-6 text-xl/8 text-gris-aluminio" v-motion-fadein-up-once>Quasi est quaerat. Sit
+                            molestiae et. Provident
+                            ad
+                            dolorem occaecati eos iste. Soluta rerum quidem minus ut molestiae velit error quod.
+                            Excepturi quidem expedita molestias quas.</p>
+                        <p class="mt-6 text-base/7 text-gris-aluminio" v-motion-fadein-up-once>Anim aute id magna aliqua
+                            ad ad non deserunt
+                            sunt. Qui
+                            irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat. Quasi
+                            aperiam sit non sit neque reprehenderit.</p>
+                        <div class="mt-10 flex" v-motion-fadein-up-once>
+                            <a href="#"
+                                class="rounded-full bg-secondary px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Únete
+                                a nuestro equipo</a>
+                        </div>
+
                     </div>
                     <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                         <div v-motion-fadein-up-once
@@ -399,25 +402,23 @@
                         </div>
                         <div
                             class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-                            <LazyMotionGroup :preset="'fadein-up-once'">
-                                <div
-                                    class="order-first flex w-64 flex-none justify-end self-end lg:w-auto overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
-                                    <img src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
-                                        alt=""
-                                        class="aspect-4/3 w-[24rem] max-w-none flex-none bg-gray-50 object-cover">
-                                </div>
-                                <div
-                                    class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
-                                    <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
-                                        alt=""
-                                        class="aspect-7/5 w-[37rem] max-w-none flex-none bg-gray-50 object-cover">
-                                </div>
-                                <div
-                                    class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
-                                    <img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
-                                        alt="" class="aspect-4/3 w-[24rem] max-w-none bg-gray-50 object-cover">
-                                </div>
-                            </LazyMotionGroup>
+
+                            <div v-motion-fadein-up-once
+                                class="order-first flex w-64 flex-none justify-end self-end lg:w-auto overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
+                                <img src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
+                                    alt="" class="aspect-4/3 w-[24rem] max-w-none flex-none bg-gray-50 object-cover">
+                            </div>
+                            <div v-motion-fadein-up-once
+                                class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
+                                <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
+                                    alt="" class="aspect-7/5 w-[37rem] max-w-none flex-none bg-gray-50 object-cover">
+                            </div>
+                            <div v-motion-fadein-up-once
+                                class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
+                                <img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
+                                    alt="" class="aspect-4/3 w-[24rem] max-w-none bg-gray-50 object-cover">
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -435,86 +436,88 @@
                 </div>
                 <div
                     class="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm/6 text-secondary sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
-                        <figure v-motion-fadein-up-once
-                            class="rounded-2xl bg-white ring-1 shadow-lg ring-secondary/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
-                            <blockquote
-                                class="p-6 text-lg font-semibold tracking-tight text-secondary sm:p-12 sm:text-xl/8">
-                                <p>“Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae
-                                    auctor
-                                    libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi
-                                    venenatis
-                                    blandit vel et proin. Non hendrerit in vel ac diam.”</p>
-                            </blockquote>
-                            <figcaption
-                                class="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-secondary/10 px-6 py-4 sm:flex-nowrap">
-                                <img class="size-10 flex-none rounded-full bg-gray-50"
-                                    src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80"
-                                    alt="">
-                                <div class="flex-auto">
-                                    <div class="font-semibold">Brenna Goyette</div>
-                                    <div class="text-gris-aluminio">@brennagoyette</div>
-                                </div>
-                                <img class="h-10 w-auto flex-none"
-                                    src="https://tailwindcss.com/plus-assets/img/logos/savvycal-logo-secondary.svg"
-                                    alt="">
-                            </figcaption>
-                        </figure>
+                    <figure v-motion-fadein-up-once
+                        class="rounded-2xl bg-white ring-1 shadow-lg ring-secondary/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
+                        <blockquote
+                            class="p-6 text-lg font-semibold tracking-tight text-secondary sm:p-12 sm:text-xl/8">
+                            <p>“Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae
+                                auctor
+                                libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi
+                                venenatis
+                                blandit vel et proin. Non hendrerit in vel ac diam.”</p>
+                        </blockquote>
+                        <figcaption
+                            class="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-secondary/10 px-6 py-4 sm:flex-nowrap">
+                            <img class="size-10 flex-none rounded-full bg-gray-50"
+                                src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80"
+                                alt="">
+                            <div class="flex-auto">
+                                <div class="font-semibold">Brenna Goyette</div>
+                                <div class="text-gris-aluminio">@brennagoyette</div>
+                            </div>
+                            <img class="h-10 w-auto flex-none"
+                                src="https://tailwindcss.com/plus-assets/img/logos/savvycal-logo-secondary.svg" alt="">
+                        </figcaption>
+                    </figure>
                     <div class="space-y-8 xl:contents xl:space-y-0">
                         <div class="space-y-8 xl:row-span-2">
 
-                                <figure v-motion-fadein-up-once class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
-                                    <blockquote class="text-secondary">
-                                        <p>“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil.
-                                            Aut
-                                            enim doloremque et ipsam.”</p>
-                                    </blockquote>
-                                    <figcaption class="mt-6 flex items-center gap-x-4">
-                                        <img class="size-10 rounded-full bg-gray-50"
-                                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                            alt="">
-                                        <div>
-                                            <div class="font-semibold">Leslie Alexander</div>
-                                            <div class="text-gris-aluminio">@lesliealexander</div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                                <figure v-motion-fadein-up-once class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
-                                    <blockquote class="text-secondary">
-                                        <p>“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit
-                                            incidunt
-                                            excepturi rerum voluptatem minus harum.”</p>
-                                    </blockquote>
-                                    <figcaption class="mt-6 flex items-center gap-x-4">
-                                        <img class="size-10 rounded-full bg-gray-50"
-                                            src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                            alt="">
-                                        <div>
-                                            <div class="font-semibold">Leonard Krasner</div>
-                                            <div class="text-gris-aluminio">@leonardkrasner</div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
+                            <figure v-motion-fadein-up-once
+                                class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
+                                <blockquote class="text-secondary">
+                                    <p>“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil.
+                                        Aut
+                                        enim doloremque et ipsam.”</p>
+                                </blockquote>
+                                <figcaption class="mt-6 flex items-center gap-x-4">
+                                    <img class="size-10 rounded-full bg-gray-50"
+                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt="">
+                                    <div>
+                                        <div class="font-semibold">Leslie Alexander</div>
+                                        <div class="text-gris-aluminio">@lesliealexander</div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <figure v-motion-fadein-up-once
+                                class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
+                                <blockquote class="text-secondary">
+                                    <p>“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit
+                                        incidunt
+                                        excepturi rerum voluptatem minus harum.”</p>
+                                </blockquote>
+                                <figcaption class="mt-6 flex items-center gap-x-4">
+                                    <img class="size-10 rounded-full bg-gray-50"
+                                        src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt="">
+                                    <div>
+                                        <div class="font-semibold">Leonard Krasner</div>
+                                        <div class="text-gris-aluminio">@leonardkrasner</div>
+                                    </div>
+                                </figcaption>
+                            </figure>
 
                             <!-- More testimonials... -->
                         </div>
                         <div class="space-y-8 xl:row-start-1">
 
-                                <figure v-motion-fadein-up-once class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
-                                    <blockquote class="text-secondary">
-                                        <p>“Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam
-                                            ut
-                                            officia rem nulla blanditiis.”</p>
-                                    </blockquote>
-                                    <figcaption class="mt-6 flex items-center gap-x-4">
-                                        <img class="size-10 rounded-full bg-gray-50"
-                                            src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                            alt="">
-                                        <div>
-                                            <div class="font-semibold">Lindsay Walton</div>
-                                            <div class="text-gris-aluminio">@lindsaywalton</div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
+                            <figure v-motion-fadein-up-once
+                                class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
+                                <blockquote class="text-secondary">
+                                    <p>“Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam
+                                        ut
+                                        officia rem nulla blanditiis.”</p>
+                                </blockquote>
+                                <figcaption class="mt-6 flex items-center gap-x-4">
+                                    <img class="size-10 rounded-full bg-gray-50"
+                                        src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt="">
+                                    <div>
+                                        <div class="font-semibold">Lindsay Walton</div>
+                                        <div class="text-gris-aluminio">@lindsaywalton</div>
+                                    </div>
+                                </figcaption>
+                            </figure>
 
 
                             <!-- More testimonials... -->
@@ -524,62 +527,65 @@
                     <div class="space-y-8 xl:contents xl:space-y-0">
                         <div class="space-y-8 xl:row-start-1">
 
-                                <figure v-motion-fadein-up-once class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
-                                    <blockquote class="text-secondary">
-                                        <p>“Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis
-                                            repudiandae.
-                                            Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.”
-                                        </p>
-                                    </blockquote>
-                                    <figcaption class="mt-6 flex items-center gap-x-4">
-                                        <img class="size-10 rounded-full bg-gray-50"
-                                            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                            alt="">
-                                        <div>
-                                            <div class="font-semibold">Tom Cook</div>
-                                            <div class="text-gris-aluminio">@tomcook</div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
+                            <figure v-motion-fadein-up-once
+                                class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
+                                <blockquote class="text-secondary">
+                                    <p>“Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis
+                                        repudiandae.
+                                        Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.”
+                                    </p>
+                                </blockquote>
+                                <figcaption class="mt-6 flex items-center gap-x-4">
+                                    <img class="size-10 rounded-full bg-gray-50"
+                                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt="">
+                                    <div>
+                                        <div class="font-semibold">Tom Cook</div>
+                                        <div class="text-gris-aluminio">@tomcook</div>
+                                    </div>
+                                </figcaption>
+                            </figure>
 
 
                             <!-- More testimonials... -->
                         </div>
                         <div class="space-y-8 xl:row-span-2">
 
-                                <figure v-motion-fadein-up-once class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
-                                    <blockquote class="text-secondary">
-                                        <p>“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit
-                                            incidunt
-                                            excepturi rerum voluptatem minus harum.”</p>
-                                    </blockquote>
-                                    <figcaption class="mt-6 flex items-center gap-x-4">
-                                        <img class="size-10 rounded-full bg-gray-50"
-                                            src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                            alt="">
-                                        <div>
-                                            <div class="font-semibold">Leonard Krasner</div>
-                                            <div class="text-gris-aluminio">@leonardkrasner</div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
+                            <figure v-motion-fadein-up-once
+                                class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
+                                <blockquote class="text-secondary">
+                                    <p>“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit
+                                        incidunt
+                                        excepturi rerum voluptatem minus harum.”</p>
+                                </blockquote>
+                                <figcaption class="mt-6 flex items-center gap-x-4">
+                                    <img class="size-10 rounded-full bg-gray-50"
+                                        src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt="">
+                                    <div>
+                                        <div class="font-semibold">Leonard Krasner</div>
+                                        <div class="text-gris-aluminio">@leonardkrasner</div>
+                                    </div>
+                                </figcaption>
+                            </figure>
 
-                                <figure v-motion-fadein-up-once class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
-                                    <blockquote class="text-secondary">
-                                        <p>“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil.
-                                            Aut
-                                            enim doloremque et ipsam.”</p>
-                                    </blockquote>
-                                    <figcaption class="mt-6 flex items-center gap-x-4">
-                                        <img class="size-10 rounded-full bg-gray-50"
-                                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                            alt="">
-                                        <div>
-                                            <div class="font-semibold">Leslie Alexander</div>
-                                            <div class="text-gris-aluminio">@lesliealexander</div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
+                            <figure v-motion-fadein-up-once
+                                class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
+                                <blockquote class="text-secondary">
+                                    <p>“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil.
+                                        Aut
+                                        enim doloremque et ipsam.”</p>
+                                </blockquote>
+                                <figcaption class="mt-6 flex items-center gap-x-4">
+                                    <img class="size-10 rounded-full bg-gray-50"
+                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt="">
+                                    <div>
+                                        <div class="font-semibold">Leslie Alexander</div>
+                                        <div class="text-gris-aluminio">@lesliealexander</div>
+                                    </div>
+                                </figcaption>
+                            </figure>
 
 
                             <!-- More testimonials... -->
