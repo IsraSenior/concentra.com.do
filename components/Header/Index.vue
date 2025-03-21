@@ -28,7 +28,7 @@
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                 <a href="#" v-motion-fadein-up-once :delay="900"
-                    class="rounded-full bg-transparent border border-secondary px-3.5 py-2.5 text-sm font-light text-secondary shadow-xs hover:bg-secondary hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">
+                    class="rounded-full bg-primary px-3.5 py-2.5 text-sm font-light text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">
                     ¡Empléate!
                 </a>
             </div>

@@ -10,7 +10,7 @@
             </defs>
             <rect width="100%" height="100%" stroke-width="0" fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" />
         </svg>
-        <div class="mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-52 lg:flex lg:px-8 lg:pt-52">
+        <div class="mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-0 lg:flex lg:px-8 lg:pt-52">
             <div class="mx-auto max-w-2xl lg:mx-0 lg:shrink-0 lg:pt-8">
                 <div class="mt-24 sm:mt-32 lg:mt-16">
                     <div class="inline-flex space-x-4">
@@ -44,7 +44,7 @@
                 </p>
                 <div class="mt-10 flex items-center gap-x-6">
                     <a href="#" v-motion-fadein-up-once :delay="900"
-                        class="rounded-full bg-secondary px-3.5 py-2.5 text-sm font-light text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Conocer
+                        class="rounded-full bg-primary px-3.5 py-2.5 text-sm font-light text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Conocer
                         más</a>
                     <a href="#" v-motion-fadein-up-once :delay="1000" class="text-sm/6 font-light text-secondary hover:text-primary">Contáctanos <span
                             aria-hidden="true">→</span></a>
