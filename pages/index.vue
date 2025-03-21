@@ -24,91 +24,95 @@
                 </div>
                 <section class="mt-20 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
                     <div class="lg:pr-8">
-                        <LazyMotionGroup :preset="'fadein-up-once'">
-                            <h2 class="text-xl font-semibold tracking-tight text-pretty text-primary">Compromiso</h2>
-                            <p class="mt-4 text-base/7 text-gris-aluminio">Grado de responsabilidad y disposición de
-                                apoyar
-                                desde mi rol, las prioridades de la organización, asumiendo con el debido sentido de
-                                urgencia el cumplimiento de la tarea, proyecto o promesa acordada.</p>
+                        <h2 class="text-xl font-semibold tracking-tight text-pretty text-primary"
+                            v-motion-fadein-up-once>Compromiso</h2>
+                        <p class="mt-4 text-base/7 text-gris-aluminio" v-motion-fadein-up-once>Grado de responsabilidad
+                            y disposición de
+                            apoyar
+                            desde mi rol, las prioridades de la organización, asumiendo con el debido sentido de
+                            urgencia el cumplimiento de la tarea, proyecto o promesa acordada.</p>
 
-                            <h2 class="text-xl font-semibold tracking-tight text-pretty text-primary mt-8">Innovación
-                            </h2>
-                            <p class="mt-4 text-base/7 text-gris-aluminio">Capacidad de desafiar las ideas
-                                convencionales,
-                                con el propósito de crear soluciones que generen valor, tanto para nuestros clientes,
-                                como a
-                                la evolución de la organización.</p>
+                        <h2 class="text-xl font-semibold tracking-tight text-pretty text-primary mt-8"
+                            v-motion-fadein-up-once>Innovación
+                        </h2>
+                        <p class="mt-4 text-base/7 text-gris-aluminio" v-motion-fadein-up-once>Capacidad de desafiar las
+                            ideas
+                            convencionales,
+                            con el propósito de crear soluciones que generen valor, tanto para nuestros clientes,
+                            como a
+                            la evolución de la organización.</p>
 
-                            <h2 class="text-xl font-semibold tracking-tight text-pretty text-primary mt-8">Trabajo en
-                                equipo
-                            </h2>
-                            <p class="mt-4 text-base/7 text-gris-aluminio">Hacer lo necesario para que la empresa
-                                alcance
-                                sus resultados, estando consciente de cómo mi trabajo impacta y complementa el de otros,
-                                generando entre todos un efecto sinérgico.</p>
-                        </LazyMotionGroup>
+                        <h2 class="text-xl font-semibold tracking-tight text-pretty text-primary mt-8"
+                            v-motion-fadein-up-once>Trabajo en
+                            equipo
+                        </h2>
+                        <p class="mt-4 text-base/7 text-gris-aluminio" v-motion-fadein-up-once>Hacer lo necesario para
+                            que la empresa
+                            alcance
+                            sus resultados, estando consciente de cómo mi trabajo impacta y complementa el de otros,
+                            generando entre todos un efecto sinérgico.</p>
                     </div>
                     <div class="pt-16 lg:row-span-2 lg:-mr-16 xl:mr-auto">
                         <div
                             class="-mx-8 grid grid-cols-2 gap-4 sm:-mx-16 sm:grid-cols-4 lg:mx-0 lg:grid-cols-2 lg:gap-4 xl:gap-8">
-                            <LazyMotionGroup :preset="'fadein-up-once'">
-                                <div
-                                    class="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
-                                    <img alt=""
-                                        src="https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?&auto=format&fit=crop&crop=center&w=560&h=560&q=90"
-                                        class="block size-full object-cover">
-                                </div>
-                                <div
-                                    class="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5 lg:-mt-40">
-                                    <img alt=""
-                                        src="https://images.unsplash.com/photo-1557804506-669a67965ba0?&auto=format&fit=crop&crop=left&w=560&h=560&q=90"
-                                        class="block size-full object-cover">
-                                </div>
-                                <div
-                                    class="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
-                                    <img alt=""
-                                        src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?&auto=format&fit=crop&crop=left&w=560&h=560&q=90"
-                                        class="block size-full object-cover">
-                                </div>
-                                <div
-                                    class="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5 lg:-mt-40">
-                                    <img alt=""
-                                        src="https://images.unsplash.com/photo-1598257006458-087169a1f08d?&auto=format&fit=crop&crop=center&w=560&h=560&q=90"
-                                        class="block size-full object-cover">
-                                </div>
-                            </LazyMotionGroup>
+                            <div v-motion-fadein-up-once
+                                class="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
+                                <img alt=""
+                                    src="https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?&auto=format&fit=crop&crop=center&w=560&h=560&q=90"
+                                    class="block size-full object-cover">
+                            </div>
+                            <div v-motion-fadein-up-once
+                                class="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5 lg:-mt-40">
+                                <img alt=""
+                                    src="https://images.unsplash.com/photo-1557804506-669a67965ba0?&auto=format&fit=crop&crop=left&w=560&h=560&q=90"
+                                    class="block size-full object-cover">
+                            </div>
+                            <div v-motion-fadein-up-once
+                                class="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
+                                <img alt=""
+                                    src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?&auto=format&fit=crop&crop=left&w=560&h=560&q=90"
+                                    class="block size-full object-cover">
+                            </div>
+                            <div v-motion-fadein-up-once
+                                class="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5 lg:-mt-40">
+                                <img alt=""
+                                    src="https://images.unsplash.com/photo-1598257006458-087169a1f08d?&auto=format&fit=crop&crop=center&w=560&h=560&q=90"
+                                    class="block size-full object-cover">
+                            </div>
                         </div>
                     </div>
                     <div class="max-lg:mt-16 lg:col-span-1">
                         <p class="text-base/7 font-semibold text-secondary" v-motion-fadein-up-once>Nuestros números</p>
                         <hr class="mt-6 border-t border-primary-100" v-motion-fadein-up-once>
                         <dl class="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
-                            <LazyMotionGroup :preset="'fadein-up-once'">
-                                <div class="flex flex-col gap-y-2 border-b border-dotted border-primary-100 pb-4">
-                                    <dt class="text-sm/6 text-gris-aluminio">Años de gestión</dt>
-                                    <dd class="order-first text-6xl font-semibold tracking-tight text-primary">
-                                        +<span>20</span></dd>
-                                </div>
-                                <div class="flex flex-col gap-y-2 border-b border-dotted border-primary-100 pb-4">
-                                    <dt class="text-sm/6 text-gris-aluminio">Clientes satisfechos</dt>
-                                    <dd class="order-first text-6xl font-semibold tracking-tight text-secondary">
-                                        +<span>75</span>
-                                    </dd>
-                                </div>
-                                <div
-                                    class="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-primary-100 max-sm:pb-4">
-                                    <dt class="text-sm/6 text-gris-aluminio">Profesionales capacitados</dt>
-                                    <dd class="order-first text-6xl font-semibold tracking-tight text-azul-cobalto">
-                                        <span>5.6</span>K
-                                    </dd>
-                                </div>
-                                <div class="flex flex-col gap-y-2">
-                                    <dt class="text-sm/6 text-gris-aluminio">Proyectos exitosos</dt>
-                                    <dd class="order-first text-6xl font-semibold tracking-tight text-verde-esmeralda">
-                                        +<span>200</span>
-                                    </dd>
-                                </div>
-                            </LazyMotionGroup>
+
+                            <div v-motion-fadein-up-once
+                                class="flex flex-col gap-y-2 border-b border-dotted border-primary-100 pb-4">
+                                <dt class="text-sm/6 text-gris-aluminio">Años de gestión</dt>
+                                <dd class="order-first text-6xl font-semibold tracking-tight text-primary">
+                                    +<span>20</span></dd>
+                            </div>
+                            <div v-motion-fadein-up-once
+                                class="flex flex-col gap-y-2 border-b border-dotted border-primary-100 pb-4">
+                                <dt class="text-sm/6 text-gris-aluminio">Clientes satisfechos</dt>
+                                <dd class="order-first text-6xl font-semibold tracking-tight text-secondary">
+                                    +<span>75</span>
+                                </dd>
+                            </div>
+                            <div
+                                class="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-primary-100 max-sm:pb-4">
+                                <dt class="text-sm/6 text-gris-aluminio">Profesionales capacitados</dt>
+                                <dd class="order-first text-6xl font-semibold tracking-tight text-azul-cobalto">
+                                    <span>5.6</span>K
+                                </dd>
+                            </div>
+                            <div v-motion-fadein-up-once class="flex flex-col gap-y-2">
+                                <dt class="text-sm/6 text-gris-aluminio">Proyectos exitosos</dt>
+                                <dd class="order-first text-6xl font-semibold tracking-tight text-verde-esmeralda">
+                                    +<span>200</span>
+                                </dd>
+                            </div>
+
                         </dl>
                     </div>
                 </section>
@@ -133,20 +137,22 @@
                         }
                     }"
                         class="absolute h-[500px] brightness-0 invert opacity-10 left-0 bottom-0 transform -translate-x-1/4 translate-y-1/4 rotate-12" />
-                    <LazyMotionGroup :preset="'fadein-up-once'">
-                        <h2 class="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">Aumente su
-                            productividad hoy mismo.</h2>
-                        <p class="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-300">Incididunt sint fugiat
-                            pariatur
-                            cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.</p>
-                        <div class="mt-10 flex items-center justify-center gap-x-6">
-                            <a href="#"
-                                class="rounded-full bg-white px-3.5 py-2.5 text-sm font-semibold text-secondary shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Nuestras
-                                soluciones</a>
-                            <a href="#" class="text-sm/6 font-semibold text-white">Conoce más <span
-                                    aria-hidden="true">→</span></a>
-                        </div>
-                    </LazyMotionGroup>
+
+                    <h2 class="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl"
+                        v-motion-fadein-up-once>Aumente su
+                        productividad hoy mismo.</h2>
+                    <p class="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-300" v-motion-fadein-up-once>
+                        Incididunt sint fugiat
+                        pariatur
+                        cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.</p>
+                    <div class="mt-10 flex items-center justify-center gap-x-6" v-motion-fadein-up-once>
+                        <a href="#"
+                            class="rounded-full bg-white px-3.5 py-2.5 text-sm font-semibold text-secondary shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Nuestras
+                            soluciones</a>
+                        <a href="#" class="text-sm/6 font-semibold text-white">Conoce más <span
+                                aria-hidden="true">→</span></a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -422,14 +428,14 @@
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto max-w-2xl text-center">
                     <h2 class="text-base/7 font-semibold text-primary" v-motion-fadein-up-once>Testimonios</h2>
-                    <p v-motion-fadein-up-once class="mt-2 text-4xl font-semibold tracking-tight text-balance text-secondary sm:text-5xl">
+                    <p v-motion-fadein-up-once
+                        class="mt-2 text-4xl font-semibold tracking-tight text-balance text-secondary sm:text-5xl">
                         Hemos
                         trabajado con miles de personas increíbles</p>
                 </div>
                 <div
                     class="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm/6 text-secondary sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
-                    <LazyMotionGroup :preset="'fadein-up-once'">
-                        <figure
+                        <figure v-motion-fadein-up-once
                             class="rounded-2xl bg-white ring-1 shadow-lg ring-secondary/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
                             <blockquote
                                 class="p-6 text-lg font-semibold tracking-tight text-secondary sm:p-12 sm:text-xl/8">
@@ -453,11 +459,10 @@
                                     alt="">
                             </figcaption>
                         </figure>
-                    </LazyMotionGroup>
                     <div class="space-y-8 xl:contents xl:space-y-0">
                         <div class="space-y-8 xl:row-span-2">
-                            <LazyMotionGroup :preset="'fadein-up-once'">
-                                <figure class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
+
+                                <figure v-motion-fadein-up-once class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                     <blockquote class="text-secondary">
                                         <p>“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil.
                                             Aut
@@ -473,7 +478,7 @@
                                         </div>
                                     </figcaption>
                                 </figure>
-                                <figure class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
+                                <figure v-motion-fadein-up-once class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                     <blockquote class="text-secondary">
                                         <p>“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit
                                             incidunt
@@ -489,12 +494,12 @@
                                         </div>
                                     </figcaption>
                                 </figure>
-                            </LazyMotionGroup>
+
                             <!-- More testimonials... -->
                         </div>
                         <div class="space-y-8 xl:row-start-1">
-                            <LazyMotionGroup :preset="'fadein-up-once'">
-                                <figure class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
+
+                                <figure v-motion-fadein-up-once class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                     <blockquote class="text-secondary">
                                         <p>“Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam
                                             ut
@@ -510,7 +515,7 @@
                                         </div>
                                     </figcaption>
                                 </figure>
-                            </LazyMotionGroup>
+
 
                             <!-- More testimonials... -->
                         </div>
@@ -518,8 +523,8 @@
 
                     <div class="space-y-8 xl:contents xl:space-y-0">
                         <div class="space-y-8 xl:row-start-1">
-                            <LazyMotionGroup :preset="'fadein-up-once'">
-                                <figure class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
+
+                                <figure v-motion-fadein-up-once class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                     <blockquote class="text-secondary">
                                         <p>“Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis
                                             repudiandae.
@@ -536,13 +541,13 @@
                                         </div>
                                     </figcaption>
                                 </figure>
-                            </LazyMotionGroup>
+
 
                             <!-- More testimonials... -->
                         </div>
                         <div class="space-y-8 xl:row-span-2">
-                            <LazyMotionGroup :preset="'fadein-up-once'">
-                                <figure class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
+
+                                <figure v-motion-fadein-up-once class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                     <blockquote class="text-secondary">
                                         <p>“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit
                                             incidunt
@@ -559,7 +564,7 @@
                                     </figcaption>
                                 </figure>
 
-                                <figure class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
+                                <figure v-motion-fadein-up-once class="rounded-2xl bg-white p-6 ring-1 shadow-lg ring-secondary/5">
                                     <blockquote class="text-secondary">
                                         <p>“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil.
                                             Aut
@@ -575,7 +580,7 @@
                                         </div>
                                     </figcaption>
                                 </figure>
-                            </LazyMotionGroup>
+
 
                             <!-- More testimonials... -->
                         </div>
@@ -589,5 +594,4 @@
 </template>
 
 <script setup>
-
 </script>
