@@ -56,25 +56,25 @@
                         <div
                             class="-mx-8 grid grid-cols-2 gap-4 sm:-mx-16 sm:grid-cols-4 lg:mx-0 lg:grid-cols-2 lg:gap-4 xl:gap-8">
                             <div v-motion-fadein-up-once
-                                class="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
+                                class="aspect-square overflow-hidden rounded-xl shadow-xl shadow-primary/5">
                                 <img alt=""
                                     src="https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?&auto=format&fit=crop&crop=center&w=560&h=560&q=90"
                                     class="block size-full object-cover">
                             </div>
                             <div v-motion-fadein-up-once
-                                class="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5 lg:-mt-40">
+                                class="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl shadow-primary/5 lg:-mt-40">
                                 <img alt=""
                                     src="https://images.unsplash.com/photo-1557804506-669a67965ba0?&auto=format&fit=crop&crop=left&w=560&h=560&q=90"
                                     class="block size-full object-cover">
                             </div>
                             <div v-motion-fadein-up-once
-                                class="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
+                                class="aspect-square overflow-hidden rounded-xl shadow-xl shadow-primary/5">
                                 <img alt=""
                                     src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?&auto=format&fit=crop&crop=left&w=560&h=560&q=90"
                                     class="block size-full object-cover">
                             </div>
                             <div v-motion-fadein-up-once
-                                class="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5 lg:-mt-40">
+                                class="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl shadow-primary/5 lg:-mt-40">
                                 <img alt=""
                                     src="https://images.unsplash.com/photo-1598257006458-087169a1f08d?&auto=format&fit=crop&crop=center&w=560&h=560&q=90"
                                     class="block size-full object-cover">
@@ -396,7 +396,7 @@
                     </div>
                     <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                         <div v-motion-fadein-up-once
-                            class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
+                            class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end overflow-hidden rounded-xl shadow-xl shadow-primary/5">
                             <img src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80"
                                 alt="" class="aspect-7/5 w-[37rem] max-w-none bg-gray-50 object-cover">
                         </div>
@@ -404,17 +404,17 @@
                             class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
 
                             <div v-motion-fadein-up-once
-                                class="order-first flex w-64 flex-none justify-end self-end lg:w-auto overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
+                                class="order-first flex w-64 flex-none justify-end self-end lg:w-auto overflow-hidden rounded-xl shadow-xl shadow-primary/5">
                                 <img src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
                                     alt="" class="aspect-4/3 w-[24rem] max-w-none flex-none bg-gray-50 object-cover">
                             </div>
                             <div v-motion-fadein-up-once
-                                class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
+                                class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none overflow-hidden rounded-xl shadow-xl shadow-primary/5">
                                 <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
                                     alt="" class="aspect-7/5 w-[37rem] max-w-none flex-none bg-gray-50 object-cover">
                             </div>
                             <div v-motion-fadein-up-once
-                                class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-primary-100 shadow-primary/5">
+                                class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none overflow-hidden rounded-xl shadow-xl shadow-primary/5">
                                 <img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
                                     alt="" class="aspect-4/3 w-[24rem] max-w-none bg-gray-50 object-cover">
                             </div>
