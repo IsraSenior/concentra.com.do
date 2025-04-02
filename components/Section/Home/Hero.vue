@@ -1,5 +1,5 @@
 <template>
-    <div class="relative isolate overflow-hidden bg-white lg:pb-56">
+    <div class="relative isolate overflow-hidden bg-primary h-screen">
         <svg class="absolute inset-0 -z-10 size-full stroke-primary-100 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
             aria-hidden="true">
             <defs>
@@ -36,9 +36,11 @@
                         </span>
                     </div>
                 </div>
-                <h1 class="mt-10 text-5xl font-semibold tracking-normal text-pretty text-secondary sm:text-5xl leading-tight" v-motion-fadein-up-once :delay="700">Smart IT
+                <h1 class="mt-10 text-5xl font-semibold tracking-normal text-pretty text-secondary sm:text-5xl leading-tight"
+                    v-motion-fadein-up-once :delay="700">Smart IT
                     Management, Simplified.</h1>
-                <p class="mt-8 text-lg font-normal text-pretty text-gris-aluminio sm:text-xl/8" v-motion-fadein-up-once :delay="800">Optimiza tus procesos y
+                <p class="mt-8 text-lg font-normal text-pretty text-gris-aluminio sm:text-xl/8" v-motion-fadein-up-once
+                    :delay="800">Optimiza tus procesos y
                     potencia tu negocio con soluciones tecnológicas inteligentes. Descubre cómo podemos transformar tu
                     gestión IT hoy mismo.
                 </p>
@@ -46,7 +48,8 @@
                     <a href="#" v-motion-fadein-up-once :delay="900"
                         class="rounded-full bg-primary px-3.5 py-2.5 text-sm font-light text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Conocer
                         más</a>
-                    <a href="#" v-motion-fadein-up-once :delay="1000" class="text-sm/6 font-light text-secondary hover:text-primary">Contáctanos <span
+                    <a href="#" v-motion-fadein-up-once :delay="1000"
+                        class="text-sm/6 font-light text-secondary hover:text-primary">Contáctanos <span
                             aria-hidden="true">→</span></a>
                 </div>
             </div>
@@ -77,33 +80,6 @@
                         }" />
                     </client-only>
                 </div>
-            </div>
-        </div>
-
-        <div class="mx-auto pt-12 max-w-7xl px-6 lg:px-8">
-            <div
-                class="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-                <img class="col-span-2 w-full object-contain lg:col-span-1" v-motion-fadein-up-once :delay="200"
-                    src="https://concentra.com.do/images/mepyd.jpg" alt="Transistor" width="158" height="48">
-                <img class="col-span-2 w-full object-contain lg:col-span-1" v-motion-fadein-up-once :delay="250"
-                    src="https://concentra.com.do/images/clientes/36.jpg" alt="Reform" width="158" height="48">
-                <img class="col-span-2 w-full object-contain lg:col-span-1" v-motion-fadein-up-once :delay="300"
-                    src="https://concentra.com.do/images/clientes/46.jpg" alt="Tuple" width="158" height="48">
-                <img class="col-span-2 w-full object-contain sm:col-start-2 lg:col-span-1" v-motion-fadein-up-once :delay="350"
-                 src="https://concentra.com.do/images/clientes/21.jpg" alt="SavvyCal" width="158"
-                    height="48">
-                <img class="col-span-2 col-start-2 w-full object-contain sm:col-start-auto lg:col-span-1" v-motion-fadein-up-once :delay="400"
-                 src="https://concentra.com.do/images/clientes/5.jpg" alt="Statamic" width="158"
-                    height="48">
-            </div>
-            <div class="-mt-8 flex justify-center" v-motion-fadein-up-once :delay="300">
-                <p
-                    class="relative rounded-full bg-primary-50 px-4 py-1.5 text-sm/6 text-primary-800 ring-1 ring-primary-900/5 ring-inset">
-                    <span class="hidden md:inline">Más de 75 empresas utilizan nuestras herramientas para mejorar su
-                        negocio.</span>
-                    <a href="#" class="font-semibold text-primary"><span class="absolute inset-0"
-                            aria-hidden="true"></span> Conócelos <span aria-hidden="true">&rarr;</span></a>
-                </p>
             </div>
         </div>
     </div>
