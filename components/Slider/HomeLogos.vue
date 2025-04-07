@@ -3,8 +3,7 @@
         <Slide v-for="(logo, index) in logos" :key="index">
             <div class="carousel__item">
                 <a href="#" target="_blank" rel="noopener noreferrer">
-                    <img class="col-span-2 w-full object-contain lg:col-span-1" v-motion-fadein-up-once :delay="200"
-                    :src="logo" alt="Logo name" width="158" height="48">
+                    <img class="w-full object-contain" v-motion-fadein-up-once :delay="200" :src="logo" alt="Logo name">
                 </a>
             </div>
         </Slide>
@@ -49,6 +48,7 @@ const logos = [
 .carousel__pagination li {
     margin: 0 4px;
 }
+
 .carousel__pagination li button {
     background-color: var(--color-primary);
     border-radius: 50%;
@@ -56,6 +56,7 @@ const logos = [
     height: 10px;
 
 }
+
 .carousel__pagination li button:hover,
 .carousel__pagination-button--active {
     background-color: var(--color-secondary);
