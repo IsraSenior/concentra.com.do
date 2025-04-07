@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white">
+    <div class="bg-primary-50">
         <div class="mx-auto max-w-7xl py-24 sm:px-6 lg:px-8">
             <div v-motion-fadein-up-once
                 class="relative isolate overflow-hidden bg-secondary px-6 py-24 text-center sm:rounded-3xl sm:px-16">

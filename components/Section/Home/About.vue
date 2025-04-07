@@ -1,5 +1,5 @@
 <template>
-    <div class="overflow-hidden bg-white py-24">
+    <div class="overflow-hidden bg-primary-50 py-24">
         <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
             <div class="max-w-4xl">
                 <p class="text-base/7 font-light text-primary tracking-wider uppercase" v-motion-fadein-up-once>Sobre

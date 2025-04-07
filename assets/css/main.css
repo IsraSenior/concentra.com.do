@@ -53,6 +53,10 @@
     --font-poppins: Poppins, serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 p,a,span,li {
     font-family: var(--font-poppins);
 }

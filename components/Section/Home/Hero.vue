@@ -1,5 +1,13 @@
 <template>
     <div class="relative isolate overflow-hidden bg-white h-screen">
+        <a href="#next"
+            class="absolute bottom-4 md:bottom-10 left-1/2 -translate-x-1/2 flex size-10 animate-bounce items-center justify-center rounded-full bg-transparent text-primary p-2 ring-1 ring-primary">
+            <svg class="size-6 text-violet-500" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="1" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </a>
+
         <svg class="absolute inset-0 -z-10 size-full stroke-primary-100 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
             aria-hidden="true">
             <defs>
@@ -10,6 +18,7 @@
             </defs>
             <rect width="100%" height="100%" stroke-width="0" fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" />
         </svg>
+
         <div class="mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-0 lg:flex lg:px-8 lg:pt-52">
             <div class="mx-auto max-w-2xl lg:mx-0 lg:shrink-0 lg:pt-8">
                 <div class="mt-24 sm:mt-32 lg:mt-16">
@@ -74,6 +83,7 @@
                 </div>
             </div>
         </div>
+        <span id="next"></span>
     </div>
 </template>
 

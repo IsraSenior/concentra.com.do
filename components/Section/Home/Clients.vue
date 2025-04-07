@@ -1,5 +1,5 @@
 <template>
-    <section class=" bg-white py-24">
+    <section id="clients" class="bg-white py-0">
         <div class="container mx-auto px-6 lg:max-w-7xl lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-16">
                 <div class="md:col-span-3">
@@ -13,7 +13,7 @@
                 </div>
                 <div class="md:col-span-2" v-motion-fadein-up-once>
                     <div>
-                        <p class="mb-6 text-xl/8 text-balance text-gris-aluminio font-normal" v-motion-fadein-up-once>
+                        <p class="mb-6 text-xl/8 text-balance text-gris-aluminio font-normal">
                             Empresas que han puesto sus proyectos tecnológicos en nuestras manos.
                         </p>
                         <a href="#"
