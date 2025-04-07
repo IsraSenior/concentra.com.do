@@ -5,7 +5,9 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
 
-  modules: ["@vueuse/motion/nuxt"],
+  modules: ["@vueuse/motion/nuxt", "@nuxtjs/i18n", "@pinia/nuxt"],
+
+  css: ["~/assets/css/main.css"],
 
   runtimeConfig: {
     public: {
@@ -42,8 +44,6 @@ export default defineNuxtConfig({
       },
     },
   },
-
-  css: ["~/assets/css/main.css"],
 
   vite: {
     plugins: [tailwindcss()],

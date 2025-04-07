@@ -1,5 +1,5 @@
 <template>
-    <div class="relative isolate overflow-hidden bg-primary h-screen">
+    <div class="relative isolate overflow-hidden bg-white h-screen">
         <svg class="absolute inset-0 -z-10 size-full stroke-primary-100 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
             aria-hidden="true">
             <defs>
@@ -56,14 +56,6 @@
             <div
                 class="relative mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:mt-0 lg:mr-0 lg:ml-10 lg:max-w-none lg:flex-none xl:ml-32">
                 <div class="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
-                    <!-- <div
-                        class="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-gray-900/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
-                        <img src="https://tailwindcss.com/plus-assets/img/component-images/project-app-screenshot.png"
-                            alt="App screenshot" width="2432" height="1442"
-                            class="w-[76rem] rounded-md ring-1 shadow-2xl ring-gray-900/10">
-                            
-                    </div> -->
-
                     <client-only>
                         <Vue3Lottie animationLink="/lottie-logo.json" height="auto" :width="640" v-motion="{
                             enter: {
