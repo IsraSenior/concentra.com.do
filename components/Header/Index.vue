@@ -1,6 +1,6 @@
 <template>
     <header v-motion-fadein-down-enter :duration="1000"
-        class="z-40 bg-white rounded-full fixed top-4 transform -translate-x-1/2 left-1/2 drop-shadow-xs shadow shadow-primary/5 max-w-7xl w-full">
+        class="z-40 bg-white rounded-full fixed top-8 transform -translate-x-1/2 left-1/2 drop-shadow-xs shadow shadow-primary/5 max-w-7xl w-full">
         <nav class="mx-auto flex  items-center justify-between p-4 lg:px-8 space-x-10 relative" aria-label="Global">
             <div class="flex lg:flex-1">
                 <NuxtLink to="/" class="-m-1.5 p-1.5">

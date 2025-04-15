@@ -17,6 +17,18 @@ export default defineNuxtConfig({
     public: {
       motion: {
         directives: {
+          "fadein-once": {
+            initial: {
+              opacity: 0,
+            },
+            visibleOnce: {
+              opacity: 1,
+              transition: {
+                duration: 1000,
+                delay: 200,
+              },
+            },
+          },
           "fadein-up-once": {
             initial: {
               opacity: 0,
@@ -27,7 +39,7 @@ export default defineNuxtConfig({
               y: 0,
               transition: {
                 duration: 1000,
-                delay: 200
+                delay: 200,
               },
             },
           },
