@@ -27,7 +27,7 @@
                 </client-only>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <NuxtLink to="/empleos"
+                <NuxtLink to="/solicitudes/empleo"
                     class="rounded-full bg-primary px-3.5 py-2.5 text-sm font-light text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">
                     ¡Empléate!
                 </NuxtLink>

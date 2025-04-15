@@ -108,9 +108,9 @@
                             <h2 class="text-2xl font-semibold tracking-tight text-balance text-secondary sm:text-3xl" >
                                 Aumente su productividad hoy mismo</h2>
                             <div class="mt-10 flex items-center justify-center gap-x-6">
-                                <button
+                                <NuxtLink to="/solicitudes/demo-soluciones"
                                     class="rounded-full bg-primary px-3.5 py-2.5 text-sm font-light text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Solicita
-                                    un demo</button>
+                                    un demo</NuxtLink>
                                 <button
                                     class="rounded-full bg-secondary px-3.5 py-2.5 text-sm font-light text-white shadow-xs hover:bg-secondary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Descargar
                                     brochure</button>
