@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+        <div class="relative isolate overflow-hidden bg-white px-6 py-24 lg:pt-32 lg:overflow-visible lg:px-0">
             <div class="absolute inset-0 -z-10 overflow-hidden">
                 <svg class="absolute top-0 left-[max(50%,25rem)] h-[64rem] w-[128rem] -translate-x-1/2 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)] stroke-primary-100"
                     aria-hidden="true">
@@ -105,12 +105,15 @@
                     <div class="mt-6" v-motion-fadein-up-once :delay="900">
                         <div
                             class="relative isolate overflow-hidden bg-transparent px-6 py-12 text-center shadow-lg shadow-secondary/5 sm:rounded-3xl sm:px-16">
-                            <h2 class="text-3xl font-semibold tracking-tight text-balance text-secondary sm:text-4xl">
-                                Boost your productivity today</h2>
+                            <h2 class="text-2xl font-semibold tracking-tight text-balance text-secondary sm:text-3xl" >
+                                Aumente su productividad hoy mismo</h2>
                             <div class="mt-10 flex items-center justify-center gap-x-6">
                                 <button
                                     class="rounded-full bg-primary px-3.5 py-2.5 text-sm font-light text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Solicita
                                     un demo</button>
+                                <button
+                                    class="rounded-full bg-secondary px-3.5 py-2.5 text-sm font-light text-white shadow-xs hover:bg-secondary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Descargar
+                                    brochure</button>
                                 <a href="https://www.softexpert.com/" target="_blank" rel="noopener noreferrer"
                                     class="text-sm/6 font-light text-secondary hover:text-primary">Conoce más
                                     <span aria-hidden="true">→</span></a>
@@ -120,6 +123,13 @@
 
                 </div>
             </div>
+        </div>
+
+        <div class="container mx-auto">
+            <h6 class="mt-12 text-xl font-semibold tracking-tight text-pretty text-secondary leading-tight sm:text-2xl" v-motion-fadein-up-once>
+                Otras soluciones relacionadas
+            </h6>
+            <SliderSolutionsRelated class="pb-16" v-motion-fadein-up-once />
         </div>
     </div>
 </template>
@@ -131,5 +141,5 @@ const benefits = ref([
     "Permite la automatización de flujos de trabajo para mayor eficiencia.",
     "Ofrece análisis en tiempo real para mejorar la toma de decisiones.",
     "Escalable y adaptable a las necesidades específicas de cada empresa."
-])
+]);
 </script>
