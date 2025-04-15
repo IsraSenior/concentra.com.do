@@ -17,7 +17,7 @@
             <img v-if="item?.image" :src="item.image" :alt="item?.label" class="size-10 object-contain object-center">
         </div>
         <div class="flex-auto">
-            <NuxtLink :to="`/soluciones/${item.hash}`" @click.native="emit('closeDropdown', true)" class="block font-semibold text-secondary">
+            <NuxtLink :to="item.hash" @click.native="emit('closeDropdown', true)" class="block font-semibold text-secondary">
                 {{ item?.label }}
                 <span class="absolute inset-0"></span>
             </NuxtLink>

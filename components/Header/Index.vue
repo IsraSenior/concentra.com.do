@@ -128,63 +128,63 @@ const menu = ref([
         options: [
             {
                 label: "SOFTEXPERT",
-                hash: "softexpert",
+                hash: "/soluciones/softexpert",
                 featured: false,
                 image: "https://www.softexpert.com/_next/image/?url=https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fsite-prd-strapi%2FMain_Logo_Core_Blue_Expert_Horizon_a8410a7641.png&w=384&q=75",
                 intro: "Empresa líder de mercado en soluciones para la excelencia en la gestión."
             },
             {
                 label: "SAYSAID",
-                hash: "softexpert",
+                hash: "/soluciones/softexpert",
                 featured: false,
                 image: "https://cdn-ccchn.nitrocdn.com/eoxXytShChgscESECFYcqdYPaOaOGMwn/assets/images/source/rev-ebe85f2/cdn.sysaid.com/wp-content/uploads/logo-1.svg",
                 intro: "Solución de gestión de service desk asequible para requisitos organizativos."
             },
             {
                 label: "SOLARWINDS",
-                hash: "softexpert",
+                hash: "/soluciones/softexpert",
                 featured: false,
                 image: "https://images.contentstack.io/v3/assets/blt28ff6c4a2cf43126/bltfed185f07ccab843/651f0a1c7bedef75ee94d61c/SW_Logo_Web_Orange.svg?auto=webp&disable=upscale&width=3840&quality=75",
                 intro: "Software galardonado de gestión de almacenamiento, aplicaciones, servidores y redes."
             },
             {
                 label: "VARONIS",
-                hash: "softexpert",
+                hash: "/soluciones/softexpert",
                 featured: false,
                 image: "https://concentra.com.do/images/2018/02/13/varonis-logo.png",
                 intro: "Ofrece un marco para actualizar el proceso de gobierno de datos."
             },
             {
                 label: "CARBONITE",
-                hash: "softexpert",
+                hash: "/soluciones/softexpert",
                 featured: false,
                 image: "https://prod-cms.carbonite.com/globalassets/site-images/nav/carbonite-by-opentext---logo---normal.svg",
                 intro: "Ofrece todas las herramientas necesarias para proteger los datos."
             },
             {
                 label: "OBSERVE IT",
-                hash: "softexpert",
+                hash: "/soluciones/softexpert",
                 featured: false,
                 image: "https://concentra.com.do/images/2018/02/13/logo-oberve-it.png",
                 intro: "Proveedor de soluciones líder de control y análisis de amenazas de infiltrados."
             },
             {
                 label: "SHUFTI PRO",
-                hash: "softexpert",
+                hash: "/soluciones/softexpert",
                 featured: false,
                 image: "https://concentra.com.do/images/2021/04/13/shufti20pro_edited.png",
                 intro: "SaaS de verificación de identidad para eliminar riesgos, delitos financieros y robo de identidad."
             },
             {
                 label: "SERVICESBOX",
-                hash: "softexpert",
+                hash: "/soluciones/softexpert",
                 featured: true,
                 image: "https://concentra.com.do/images/2022/07/07/dia1.png",
                 intro: "Solución tecnológica enfocada en trasformar digitalmente los servicios públicos de las instituciones gubernamentales."
             },
             {
                 label: "CELONIS",
-                hash: "softexpert",
+                hash: "/soluciones/softexpert",
                 featured: false,
                 image: "https://concentra.com.do/images/2022/10/26/celonis2.png",
                 icon: "",
@@ -212,21 +212,21 @@ const menu = ref([
         options: [
             {
                 label: "Outsoursing",
-                hash: "#",
+                hash: "/servicios/outsourcing",
                 featured: false,
                 icon: true,
                 intro: "Aumentar la eficiencia y la efectividad de tus servicios."
             },
             {
                 label: "Soporte técnico",
-                hash: "#",
+                hash: "/servicios/soporte-tecnico",
                 featured: false,
                 icon: true,
                 intro: "Profesionales técnicos especializados en HW y SW con una elevada preparación y experiencia."
             },
             {
                 label: "Software factory",
-                hash: "#",
+                hash: "/servicios/software-factory",
                 featured: false,
                 icon: true,
                 intro: "Desarrollo de productos o en proyectos para la obtención de aplicaciones a medida de las necesidades de nuestros clientes."
@@ -234,7 +234,7 @@ const menu = ref([
         ],
         ctas: [
             {
-                label: "Servicios",
+                label: "Lorem impsum",
                 hash: "#",
                 icon: ""
             },

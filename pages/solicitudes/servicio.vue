@@ -22,13 +22,10 @@
                         </svg>
                     </div>
 
-                    <img :src="solutions[currentSolutionIndex].image"
-                        class="h-12 w-auto" v-motion-fadein-up-once alt="">
-
-                    <!-- <h2 class="text-4xl font-semibold tracking-tight text-pretty text-secondary sm:text-5xl"
-                        v-motion-fadein-up-once>Familia
-                        ConCentra
-                    </h2> -->
+                    <h2 class="text-4xl font-semibold tracking-tight text-pretty text-secondary sm:text-5xl"
+                        v-motion-fadein-up-once>
+                        {{ services[currentServiceIndex].label }}
+                    </h2>
                     <p class="mt-6 text-lg/8 text-gris-aluminio" v-motion-fadein-up-once>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aspernatur hic debitis ratione.
                         Vel voluptatem illo nulla distinctio corporis explicabo consectetur veniam delectus
@@ -38,7 +35,7 @@
                         Facilis dolores, labore vero laboriosam aliquid, vel
                         iure, ipsum saepe officiis voluptatem explicabo minima est? Qui, corrupti?
                     </p>
-                    <dl class="mt-10 space-y-4 text-base/7 text-gray-600">
+                    <!-- <dl class="mt-10 space-y-4 text-base/7 text-gray-600">
                         <div class="flex gap-x-4" v-motion-fadein-up-once>
                             <dt class="flex-none">
                                 <span class="sr-only">Descarga de brochure</span>
@@ -56,7 +53,7 @@
                                     <span aria-hidden="true">→</span></a>
                             </dd>
                         </div>
-                    </dl>
+                    </dl> -->
                 </div>
             </div>
             <form action="#" method="POST" class="px-6 pt-20 pb-24 sm:pb-32 lg:px-8 lg:py-48">
@@ -103,11 +100,12 @@
                         </div>
 
                         <div class="sm:col-span-1">
-                            <label for="location" class="block text-sm/6 font-medium text-secondary">Solución</label>
+                            <label for="services" class="block text-sm/6 font-medium text-secondary">Servicios</label>
                             <div class="mt-2 grid grid-cols-1">
-                                <select id="location" name="location" @change="currentSolutionIndex = $event.target.selectedIndex"
+                                <select id="services" name="services"
+                                    @change="currentServiceIndex = $event.target.selectedIndex"
                                     class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pr-8 pl-3 text-base text-secondary outline-1 -outline-offset-1 outline-primary-100 focus:outline-2 focus:-outline-offset-2 focus:outline-primary sm:text-sm/6">
-                                    <option v-for="(solution, index) in solutions" :key="index">{{ solution.label }}
+                                    <option v-for="(service, index) in services" :key="index">{{ service.label }}
                                     </option>
                                 </select>
                                 <svg class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4"
@@ -170,71 +168,28 @@
 
 <script setup>
 
-const currentSolutionIndex = ref(0);
-const solutions = ref([
+const currentServiceIndex = ref(0);
+const services = ref([
     {
-        label: "SOFTEXPERT",
-        hash: "softexpert",
+        label: "Outsoursing",
+        hash: "/outsourcing",
         featured: false,
-        image: "https://www.softexpert.com/_next/image/?url=https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fsite-prd-strapi%2FMain_Logo_Core_Blue_Expert_Horizon_a8410a7641.png&w=384&q=75",
-        intro: "Empresa líder de mercado en soluciones para la excelencia en la gestión."
+        icon: true,
+        intro: "Aumentar la eficiencia y la efectividad de tus servicios."
     },
     {
-        label: "SAYSAID",
-        hash: "softexpert",
+        label: "Soporte técnico",
+        hash: "/soporte-tecnico",
         featured: false,
-        image: "https://cdn-ccchn.nitrocdn.com/eoxXytShChgscESECFYcqdYPaOaOGMwn/assets/images/source/rev-ebe85f2/cdn.sysaid.com/wp-content/uploads/logo-1.svg",
-        intro: "Solución de gestión de service desk asequible para requisitos organizativos."
+        icon: true,
+        intro: "Profesionales técnicos especializados en HW y SW con una elevada preparación y experiencia."
     },
     {
-        label: "SOLARWINDS",
-        hash: "softexpert",
+        label: "Software factory",
+        hash: "/software-factory",
         featured: false,
-        image: "https://images.contentstack.io/v3/assets/blt28ff6c4a2cf43126/bltfed185f07ccab843/651f0a1c7bedef75ee94d61c/SW_Logo_Web_Orange.svg?auto=webp&disable=upscale&width=3840&quality=75",
-        intro: "Software galardonado de gestión de almacenamiento, aplicaciones, servidores y redes."
+        icon: true,
+        intro: "Desarrollo de productos o en proyectos para la obtención de aplicaciones a medida de las necesidades de nuestros clientes."
     },
-    {
-        label: "VARONIS",
-        hash: "softexpert",
-        featured: false,
-        image: "https://concentra.com.do/images/2018/02/13/varonis-logo.png",
-        intro: "Ofrece un marco para actualizar el proceso de gobierno de datos."
-    },
-    {
-        label: "CARBONITE",
-        hash: "softexpert",
-        featured: false,
-        image: "https://prod-cms.carbonite.com/globalassets/site-images/nav/carbonite-by-opentext---logo---normal.svg",
-        intro: "Ofrece todas las herramientas necesarias para proteger los datos."
-    },
-    {
-        label: "OBSERVE IT",
-        hash: "softexpert",
-        featured: false,
-        image: "https://concentra.com.do/images/2018/02/13/logo-oberve-it.png",
-        intro: "Proveedor de soluciones líder de control y análisis de amenazas de infiltrados."
-    },
-    {
-        label: "SHUFTI PRO",
-        hash: "softexpert",
-        featured: false,
-        image: "https://concentra.com.do/images/2021/04/13/shufti20pro_edited.png",
-        intro: "SaaS de verificación de identidad para eliminar riesgos, delitos financieros y robo de identidad."
-    },
-    {
-        label: "SERVICESBOX",
-        hash: "softexpert",
-        featured: true,
-        image: "https://concentra.com.do/images/2022/07/07/dia1.png",
-        intro: "Solución tecnológica enfocada en trasformar digitalmente los servicios públicos de las instituciones gubernamentales."
-    },
-    {
-        label: "CELONIS",
-        hash: "softexpert",
-        featured: false,
-        image: "https://concentra.com.do/images/2022/10/26/celonis2.png",
-        icon: "",
-        intro: "Sistema de gestión de ejecución encuentra y corrige las ineficiencias ocultas rápidamente."
-    },
-]);
+])
 </script>
