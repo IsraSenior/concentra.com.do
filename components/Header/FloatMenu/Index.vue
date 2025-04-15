@@ -23,7 +23,8 @@
                     'p-4',
                     { 'grid grid-cols-2 gap-4': item.grid }
                 ]">
-                    <HeaderFloatMenuItem v-for="(subitem, index) in item.options" :key="index" :item="subitem" />
+                    <HeaderFloatMenuItem v-for="(subitem, index) in featuredItems" :key="index" :item="subitem" @close-dropdown="dropdown = !dropdown" />
+                    <HeaderFloatMenuItem v-for="(subitem, index) in normalItems" :key="index" :item="subitem" @close-dropdown="dropdown = !dropdown" />
                 </div>
 
                 <div class="grid grid-cols-2 divide-x divide-secondary-900/5 bg-primary-50">
@@ -50,7 +51,14 @@ const props = defineProps({
         type: Object,
         required: true
     }
-})
+});
+
+const featuredItems = computed(() => {
+    return props.item.options.filter((item) => item.featured);
+});
+const normalItems = computed(() => {
+    return props.item.options.filter((item) => !item.featured);
+});
 
 const dropdown = ref(false);
 </script>

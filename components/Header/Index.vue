@@ -3,10 +3,10 @@
         class="z-40 bg-white rounded-full fixed top-4 transform -translate-x-1/2 left-1/2 drop-shadow-xs shadow shadow-primary/5 max-w-7xl w-full">
         <nav class="mx-auto flex  items-center justify-between p-4 lg:px-8 space-x-10 relative" aria-label="Global">
             <div class="flex lg:flex-1">
-                <a href="#" class="-m-1.5 p-1.5">
-                    <span class="sr-only">Your Company</span>
+                <NuxtLink to="/" class="-m-1.5 p-1.5">
+                    <span class="sr-only">Concentra</span>
                     <Logo class="h-8 w-auto" />
-                </a>
+                </NuxtLink>
             </div>
             <div class="flex lg:hidden">
                 <button type="button"
@@ -27,10 +27,10 @@
                 </client-only>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="#" v-motion-fadein-up-once :delay="900"
+                <NuxtLink to="/empleos"
                     class="rounded-full bg-primary px-3.5 py-2.5 text-sm font-light text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">
                     ¡Empléate!
-                </a>
+                </NuxtLink>
             </div>
         </nav>
 
@@ -128,55 +128,64 @@ const menu = ref([
         options: [
             {
                 label: "SOFTEXPERT",
-                hash: "#",
+                hash: "softexpert",
+                featured: false,
                 image: "https://www.softexpert.com/_next/image/?url=https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fsite-prd-strapi%2FMain_Logo_Core_Blue_Expert_Horizon_a8410a7641.png&w=384&q=75",
                 intro: "Empresa líder de mercado en soluciones para la excelencia en la gestión."
             },
             {
                 label: "SAYSAID",
                 hash: "#",
+                featured: false,
                 image: "https://cdn-ccchn.nitrocdn.com/eoxXytShChgscESECFYcqdYPaOaOGMwn/assets/images/source/rev-ebe85f2/cdn.sysaid.com/wp-content/uploads/logo-1.svg",
                 intro: "Solución de gestión de service desk asequible para requisitos organizativos."
             },
             {
                 label: "SOLARWINDS",
                 hash: "#",
+                featured: false,
                 image: "https://images.contentstack.io/v3/assets/blt28ff6c4a2cf43126/bltfed185f07ccab843/651f0a1c7bedef75ee94d61c/SW_Logo_Web_Orange.svg?auto=webp&disable=upscale&width=3840&quality=75",
                 intro: "Software galardonado de gestión de almacenamiento, aplicaciones, servidores y redes."
             },
             {
                 label: "VARONIS",
                 hash: "#",
+                featured: false,
                 image: "https://concentra.com.do/images/2018/02/13/varonis-logo.png",
                 intro: "Ofrece un marco para actualizar el proceso de gobierno de datos."
             },
             {
                 label: "CARBONITE",
                 hash: "#",
+                featured: false,
                 image: "https://prod-cms.carbonite.com/globalassets/site-images/nav/carbonite-by-opentext---logo---normal.svg",
                 intro: "Ofrece todas las herramientas necesarias para proteger los datos."
             },
             {
                 label: "OBSERVE IT",
                 hash: "#",
+                featured: false,
                 image: "https://concentra.com.do/images/2018/02/13/logo-oberve-it.png",
                 intro: "Proveedor de soluciones líder de control y análisis de amenazas de infiltrados."
             },
             {
                 label: "SHUFTI PRO",
                 hash: "#",
+                featured: false,
                 image: "https://concentra.com.do/images/2021/04/13/shufti20pro_edited.png",
                 intro: "SaaS de verificación de identidad para eliminar riesgos, delitos financieros y robo de identidad."
             },
             {
                 label: "SERVICESBOX",
                 hash: "#",
+                featured: true,
                 image: "https://concentra.com.do/images/2022/07/07/dia1.png",
                 intro: "Solución tecnológica enfocada en trasformar digitalmente los servicios públicos de las instituciones gubernamentales."
             },
             {
                 label: "CELONIS",
                 hash: "#",
+                featured: false,
                 image: "https://concentra.com.do/images/2022/10/26/celonis2.png",
                 icon: "",
                 intro: "Sistema de gestión de ejecución encuentra y corrige las ineficiencias ocultas rápidamente."
@@ -204,18 +213,21 @@ const menu = ref([
             {
                 label: "Outsoursing",
                 hash: "#",
+                featured: false,
                 icon: true,
                 intro: "Aumentar la eficiencia y la efectividad de tus servicios."
             },
             {
                 label: "Soporte técnico",
                 hash: "#",
+                featured: false,
                 icon: true,
                 intro: "Profesionales técnicos especializados en HW y SW con una elevada preparación y experiencia."
             },
             {
                 label: "Software factory",
                 hash: "#",
+                featured: false,
                 icon: true,
                 intro: "Desarrollo de productos o en proyectos para la obtención de aplicaciones a medida de las necesidades de nuestros clientes."
             },

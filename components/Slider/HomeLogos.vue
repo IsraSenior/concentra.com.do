@@ -17,20 +17,21 @@
 
 <script setup>
 import 'vue3-carousel/carousel.css'
-import { Carousel, Slide, Pagination } from 'vue3-carousel'
+import { Carousel, Slide } from 'vue3-carousel'
 
 const carouselConfig = {
     autoplay: 2000,
     itemsToShow: 2,
     wrapAround: true,
     snapAlign: 'start',
+    // gap: '2rem',
     pauseAutoplayOnHover: true,
     breakpoints: {
         640: {
             itemsToShow: 3,
         },
         1024: {
-            itemsToShow: 5,
+            itemsToShow: 6,
         }
     }
 }

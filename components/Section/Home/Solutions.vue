@@ -1,6 +1,6 @@
 <template>
     <div class="bg-white py-24 px-4">
-        <div class="bg-primary-50 py-14 rounded-4xl">
+        <div class="py-14 rounded-4xl">
             <div class="mx-auto max-w-2xl lg:max-w-7xl text-center">
                 <h2 class="text-base/7 font-light text-primary tracking-wider uppercase" v-motion-fadein-up-once>
                     Soluciones inteligentes

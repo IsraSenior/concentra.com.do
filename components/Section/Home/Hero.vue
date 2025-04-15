@@ -1,5 +1,5 @@
 <template>
-    <div class="relative isolate overflow-hidden bg-white h-screen">
+    <section class="relative isolate overflow-hidden bg-white h-screen">
         <a href="#next"
             class="absolute bottom-4 md:bottom-10 left-1/2 -translate-x-1/2 flex size-10 animate-bounce items-center justify-center rounded-full bg-transparent text-primary p-2 ring-1 ring-primary">
             <svg class="size-6 text-violet-500" fill="none" stroke-linecap="round" stroke-linejoin="round"
@@ -84,7 +84,7 @@
             </div>
         </div>
         <span id="next"></span>
-    </div>
+    </section>
 </template>
 
 <script setup>

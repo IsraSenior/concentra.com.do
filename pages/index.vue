@@ -6,6 +6,8 @@
 
         <LazySectionHomeAbout />
 
+        <LazySectionHomeStats />
+
         <LazySectionHomeCTA />
 
         <LazySectionHomeSolutions />
