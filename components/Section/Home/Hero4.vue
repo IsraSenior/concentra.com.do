@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div
-                class="relative -mt-10 -ml-40">
+                class="relative z-10 -mt-20 -ml-48">
                 <div>
                     <client-only>
                         <Vue3Lottie animationLink="/Animation-1744747265343.json" height="auto" :width="1280" v-motion="{
