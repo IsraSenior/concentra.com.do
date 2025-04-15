@@ -31,7 +31,7 @@ const carouselConfig = {
             itemsToShow: 3,
         },
         1024: {
-            itemsToShow: 6,
+            itemsToShow: 5,
         }
     }
 }
