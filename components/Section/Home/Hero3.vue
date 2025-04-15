@@ -67,7 +67,7 @@
             </div>
         </div>
 
-        <img src="/hero-imagepro.png" class="aspect-10/12 h-[110vh] absolute object-contain right-5 top-0" alt="" v-motion-fadein-once>
+        <img src="/hero-imagepro.png" class="aspect-10/12 h-[105vh] absolute object-contain right-5 top-10" alt="" v-motion-fadein-once>
         <span id="next"></span>
     </section>
 </template>
