@@ -102,7 +102,7 @@
                     <a href="#" class="absolute inset-0"></a>
                 </div>
 
-                <div className="col-span-4 row-span-1 rounded-4xl shadow-lg bg-secondary-900 py-2 shadow-primary/5 flex items-center justify-center mt-8 overflow-hidden group w-2/3 mx-auto"
+                <div className="col-span-4 row-span-1 rounded-4xl shadow-lg bg-secondary py-2 shadow-primary/5 flex items-center justify-center mt-8 overflow-hidden group w-2/3 mx-auto"
                     v-motion-fadein-up-once>
 
                     <p class="text-sm/6 text-white">
