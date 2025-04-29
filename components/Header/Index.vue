@@ -5,7 +5,7 @@
             <div class="flex lg:flex-1">
                 <NuxtLink to="/" class="-m-1.5 p-1.5">
                     <span class="sr-only">Concentra</span>
-                    <Logo class="h-10 w-auto" />
+                    <Logo class="h-11 w-auto" />
                 </NuxtLink>
             </div>
             <div class="flex lg:hidden">
