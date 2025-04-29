@@ -21,7 +21,7 @@
                             aperiam sit non sit neque reprehenderit.</p>
                         <div class="mt-10 flex" v-motion-fadein-up-once>
                             <a href="#"
-                                class="rounded-full bg-primary px-3.5 py-2.5 text-sm font-light text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Úne
+                                class="rounded-full bg-primary px-3.5 py-2.5 text-sm font-light text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">Únete
                                 a nuestro equipo</a>
                         </div>
 

@@ -5,7 +5,7 @@
             <div class="flex lg:flex-1">
                 <NuxtLink to="/" class="-m-1.5 p-1.5">
                     <span class="sr-only">Concentra</span>
-                    <Logo class="h-8 w-auto" />
+                    <Logo class="h-10 w-auto" />
                 </NuxtLink>
             </div>
             <div class="flex lg:hidden">
@@ -19,8 +19,7 @@
                     </svg>
                 </button>
             </div>
-            <div class="hidden lg:flex lg:gap-x-12">
-
+            <div class="hidden lg:flex lg:gap-x-12 mr-0">
                 <client-only v-for="(item, index) in menu" :key="index">
                     <a v-if="!item.float" href="#" class="text-sm/6 font-light text-gray-900">{{ item.label }}</a>
                     <HeaderFloatMenu v-else :item="item" />
@@ -28,7 +27,7 @@
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                 <NuxtLink to="/solicitudes/empleo"
-                    class="rounded-full bg-primary px-3.5 py-2.5 text-sm font-light text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">
+                    class="rounded-full bg-primary px-3.5 py-2.5 text-base font-light text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary transition-colors duration-300 ease-in-out">
                     ¡Empléate!
                 </NuxtLink>
             </div>
@@ -41,11 +40,10 @@
             <div
                 class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                 <div class="flex items-center justify-between">
-                    <a href="#" class="-m-1.5 p-1.5">
-                        <span class="sr-only">Your Company</span>
-                        <img class="h-8 w-auto"
-                            src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" alt="">
-                    </a>
+                    <NuxtLink to="/" class="-m-1.5 p-1.5">
+                        <span class="sr-only">ConCentra</span>
+                        <Logo class="h-8 w-auto" />
+                    </NuxtLink>
                     <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
                         <span class="sr-only">Close menu</span>
                         <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
