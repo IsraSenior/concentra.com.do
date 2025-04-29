@@ -1,6 +1,6 @@
 <template>
     <div :class="[
-        'group relative flex items-center gap-x-4 rounded-lg p-4 text-sm/6',
+        'group relative flex items-center gap-x-4 rounded-lg p-4 text-base',
         { 'bg-white hover:bg-primary-50': !item.featured },
         { 'bg-gray-100 white hover:bg-secondary-50': item.featured },
     ]">
