@@ -1,7 +1,7 @@
 <template>
     <div class="">
         <button @click.prevent="dropdown = !dropdown" type="button"
-            class="flex items-center gap-x-1 text-sm/6 font-light text-gray-900" aria-expanded="false">
+            class="flex items-center gap-x-1 text-base font-light text-gray-900" aria-expanded="false">
             {{ item.label }}
             <svg class="size-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
                 data-slot="icon">
@@ -29,7 +29,7 @@
 
                 <div class="grid grid-cols-2 divide-x divide-secondary-900/5 bg-primary-50">
                     <a v-for="(cta, index) in item.ctas" :key="index" href="#"
-                        class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-light text-secondary-900 hover:bg-secondary-100">
+                        class="flex items-center justify-center gap-x-2.5 p-3 text-base font-light text-secondary-900 hover:bg-secondary-100">
                         <!-- <svg class="size-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor"
                             aria-hidden="true">
                             <path fill-rule="evenodd"
